@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1409063755822.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "BD12BE27",
+    "lastKnownWriteTime" : 236795296,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "duke10_by_event",
+        "contentUrl" : "content?title=duke10_by_event&file=f7b73a0dca6d41f2949a709a2c8fd0e5.htm",
+        "displayedObservations" : 128,
+        "displayedVariables" : 18,
+        "totalObservations" : 128,
+        "variables" : 18
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}
