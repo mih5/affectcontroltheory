@@ -78,7 +78,7 @@ Y.sd <- model.summary$sigma
 #here we add intercept
 sim.Y=matrix(rmvnorm(1,sim.X1.design.matrix%*%sim.B,diag(Y.sd^2,1000)),ncol=1)
 
-# COMPARE FAKE DATA WITH REAL DATA
+# COMPARE SIMULATED DATA WITH REAL DATA
 sd(sim.Y)
 sd(duke10$eae)
 
@@ -92,15 +92,23 @@ corrplot(cor(duke10[,c("ae","ap","aa","be","bp","ba","oe","op","oa")]))
 ####################
 
 sim.data <- data.frame(cbind(eae=sim.Y,sim.X1.design.matrix))
+select.training.set <- sample(1:1000,150)
+train.data <- sim.data[select.training.set,]
+test.data <- sim.data[-select.training.set,]
 
 #OLS REGRESSION
-sim.model.ols = lm(V1~.,data=sim.data[,-2])
+sim.model.ols = lm(V1~.,data=train.data[,-2])
 summary(sim.model.ols)
 
+#STEPWISE REGRESSION
+sim.model.stepwise = step(sim.model.ols)
+summary(sim.model.stepwise)
+
 #BAYESIAN MODEL AVERAGING
-sim.model.BMA = bicreg(sim.data[,-1],sim.data[,1])
+sim.model.BMA = bicreg(train.data[,-1],train.data[,1])
 summary(sim.model.BMA)
 
 #LASSO
+
 
 
