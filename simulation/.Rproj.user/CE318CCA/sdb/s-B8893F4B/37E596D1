@@ -1,0 +1,17 @@
+{
+    "contents" : "---\ntitle: \"Bayesian Model Averaging for Estimating Impression Change Equations\"\nauthor: \"Mao Hu\"\ndate: \"Saturday, August 30, 2014\"\noutput: html_document\n---\n\n\n```{r, include=FALSE}\n#source(\"simulation.R\")\n```\n\nPredictor | True Model | Stepwise | BMA | ANOVA\n--- | --- | --- | --- | --- |\nMain effects | 5 | 5 | 3 | --- |\nSecond-order| 5 | 13 | 3 / 1  | --- |\nThird-order | 0 | 6 | --- | --- |\n\n",
+    "created" : 1409452002081.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3891010508",
+    "id" : "37E596D1",
+    "lastKnownWriteTime" : 1409538567,
+    "path" : "~/GitHub/affectControlTheory/simulation/writeup.Rmd",
+    "project_path" : "writeup.Rmd",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_markdown"
+}

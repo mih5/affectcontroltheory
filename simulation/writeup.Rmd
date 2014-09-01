@@ -1,0 +1,18 @@
+---
+title: "Bayesian Model Averaging for Estimating Impression Change Equations"
+author: "Mao Hu"
+date: "Saturday, August 30, 2014"
+output: html_document
+---
+
+
+```{r, include=FALSE}
+#source("simulation.R")
+```
+
+Predictor | True Model | Stepwise | BMA | ANOVA
+--- | --- | --- | --- | --- |
+Main effects | 5 | 5 | 3 | --- |
+Second-order| 5 | 13 | 3 / 1  | --- |
+Third-order | 0 | 6 | --- | --- |
+
