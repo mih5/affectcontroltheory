@@ -1,0 +1,16 @@
+{
+    "contents" : "---\ntitle: \"A Weird Phenomena of Multivariate Normal Distribution in High Dimensions\"\nauthor: \"Math 465/Mauro Maggioni - Notes by Mao Hu\"\ndate: \"Wednesday, August 27, 2014\"\noutput: html_document\n---\n\n\n```{r include=FALSE}\nrequire(ggplot2)\n```\n\nThere are phenomena that appear in high-dimensions which are counterintuitive.  For example, consider vectors whose elements are sampled from a standard normal normal distribution:\n$$\n\\bar{v} = [v_1, v_2 ... v_D]\\\\\nv_i \\sim \\text{iid} N(0,1)\n$$\nwhere D is the length of the vector.  We might expect that the distribution of these vectors in ${\\rm I\\!R}^D$ would look like some sort of ball with most of its mass around the origin, much like how a normal distribution has most of its mass around 0.  This is not the case!\n\nConsider the expected value of the square of the vector magnitudes:\n$$\n\\begin{aligned}\n{\\rm I\\!E} [ ||\\bar{v}||^2] &= {\\rm I\\!E} [v_1^2 + v_2^2 ...v_D^2]\\\\\n&=  {\\rm I\\!E} [v_1^2] + {\\rm I\\!E} [v_2^2] ... {\\rm I\\!E} [v_D^2]\\\\\n&= Var(v_1) + Var(v_2) ... var(v_D)\\\\\n&= 1 + 1 .... \\\\\n&= D\n\\end{aligned}\n$$\nThis indicates that the expected value for the magnitude squared of these vectors is the length of the vector!  Indeed, very few vectors are near the origin; instead, the distribution forms a shell of radius $\\sqrt{D}$ about the mean.\n\nWith a simulation, we confirm our analysis:\n\n```{r message = FALSE}\nrequire(mvtnorm)\nD <- 100\nsamples <- rmvnorm(1000, mean = rep(0, D))\nvectorMagSq <- function(vector){\n  sum(vector^2)\n}\nmagnitudes.squared <- apply(samples, MARGIN = 1, FUN = vectorMagSq)\n```\n\n```{r echo=FALSE}\ndata <- data.frame(Magnitudes = magnitudes.squared)\nplot <- ggplot(data, aes(x = Magnitudes))\nplot + geom_histogram(binwidth = 10, fill = \"white\", color = \"steelblue\", stroke = 2) + xlim(c(0,150)) + xlab(\"Magnitudes Squared\")\n```\n\nHow odd!  This suggests that if we want a distribution with support on ${\\rm I\\!R}^D$ which is concentrated about the origin and is more diffuse as we venture outwards, we should look elsewhere.",
+    "created" : 1409714723027.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3295653057",
+    "id" : "1F5050A0",
+    "lastKnownWriteTime" : 1409710702,
+    "path" : "C:/Users/Mao/Dropbox/Senior Year/Math 465/multivariate normal/multivariatenormal.Rmd",
+    "project_path" : null,
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_markdown"
+}

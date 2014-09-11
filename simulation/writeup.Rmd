@@ -1,18 +1,59 @@
 ---
-title: "Bayesian Model Averaging for Estimating Impression Change Equations"
-author: "Mao Hu"
-date: "Saturday, August 30, 2014"
-output: html_document
+output: pdf_document
 ---
 
+#Bayesian Model Averaging for Simulated Impression Change Equations
+**Mao Hu**
 
 ```{r, include=FALSE}
-#source("simulation.R")
+source("simulation.R")
 ```
 
-Predictor | True Model | Stepwise | BMA | ANOVA
---- | --- | --- | --- | --- |
-Main effects | 5 | 5 | 3 | --- |
-Second-order| 5 | 13 | 3 / 1  | --- |
-Third-order | 0 | 6 | --- | --- |
+##Introduction
+
+
+
+##Simulating Data
+
+
+
+**Figure 1: Plot of simulation model coefficients** 
+
+```{r, echo=FALSE, fig.width=6}
+ggplot(coefficients, aes(x = index, y = sim.B, label=rownames(coefficients), size = 5, alpha = 0.4)) + geom_point() + geom_text(size = 5, y = sim.B + 0.025) + xlim(c(-5,70)) + theme(text=element_text(size=12),legend.position="none") + ylab("Coefficient") 
+```
+
+
+**Figure 2: Correlation plots**
+*Simulated data (left) and Duke '10 (right)*
+
+```{r, echo = FALSE, fig.width=6, fig.height=3}
+par(mfcol=c(1,2))
+corrplot(cor(sim.X1.design.dataframe[,c("ae","ap","aa","be","bp","ba","oe","op","oa")]))
+corrplot(cor(duke10[,c("ae","ap","aa","be","bp","ba","oe","op","oa")]))
+```
+
+##Results
+
+
+**Table 1: Variables identified from training set, by procedure **
+
+*Where the simulation model has 10 true predictors, out of 63 total*  
+
+|Procedures | True positives | False positives | True negatives | False negatives | Sensitivity | Specificity |
+|---------- | -------------- | --------------- | ---------------| --------------- | ----------- | ----------- |
+|stepwise   | 9              | 15              | 38             | 1               | 0.9         | 0.72        |
+|BMA        | 6              | 2               | 51             | 4               | 0.6         | 0.96        |
+|ANOVA      | 4              | 1               | 52             | 6               | 0.4         | 0.98        |
+
+
+
+**Table 2: Mean square prediction error on test set (n=500)**  
+
+| Procedures         | MSE    |
+| ------------------ | ------ |
+| stepwise           | 0.532  |
+| BMA median model   | 0.509  |
+| dichotomized ANOVA | 0.509  |
+
 

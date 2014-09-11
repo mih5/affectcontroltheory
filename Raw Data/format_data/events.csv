@@ -1,0 +1,1153 @@
+Variable Name,Original Order,Event Wording,Actor,A#,Behavior,B#,Object,O#,Impression (I) or Sentiment (S)?,Event Number,A/B/O/I Rated?,E/P/A Rated?
+e1be,25,applicant_STARING_AT_interviewee_IB1E,applicant,i37,staring at,b31,interviewee,i3,i,1,b,e
+e1bp,26,applicant_STARING_AT_interviewee_IB2P,applicant,i37,staring at,b31,interviewee,i3,i,1,b,p
+e1ba,27,applicant_STARING_AT_interviewee_IB3A,applicant,i37,staring at,b31,interviewee,i3,i,1,b,a
+e1oe,247,applicant_staring_at_INTERVIEWEE_IO1E,applicant,i37,staring at,b31,interviewee,i3,i,1,o,e
+e1op,248,applicant_staring_at_INTERVIEWEE_IO2P,applicant,i37,staring at,b31,interviewee,i3,i,1,o,p
+e1oa,249,applicant_staring_at_INTERVIEWEE_IO3A,applicant,i37,staring at,b31,interviewee,i3,i,1,o,a
+e1ae,1576,APPLICANT_staring_at_interviewee_IA1E,applicant,i37,staring at,b31,interviewee,i3,i,1,a,e
+e1ap,1577,APPLICANT_staring_at_interviewee_IA2P,applicant,i37,staring at,b31,interviewee,i3,i,1,a,p
+e1aa,1578,APPLICANT_staring_at_interviewee_IA3A,applicant,i37,staring at,b31,interviewee,i3,i,1,a,a
+e2oe,22,athlete_babbling_to_TEAMMATE_IO1E,athlete,i1,babbling to,b36,teammate,i19,i,2,o,e
+e2op,23,athlete_babbling_to_TEAMMATE_IO2P,athlete,i1,babbling to,b36,teammate,i19,i,2,o,p
+e2oa,24,athlete_babbling_to_TEAMMATE_IO3A,athlete,i1,babbling to,b36,teammate,i19,i,2,o,a
+e2ae,1351,ATHLETE_babbling_to_teammate_IA1E,athlete,i1,babbling to,b36,teammate,i19,i,2,a,e
+e2ap,1352,ATHLETE_babbling_to_teammate_IA2P,athlete,i1,babbling to,b36,teammate,i19,i,2,a,p
+e2aa,1353,ATHLETE_babbling_to_teammate_IA3A,athlete,i1,babbling to,b36,teammate,i19,i,2,a,a
+e2be,1573,athlete_BABBLING_TO_teammate_IB1E,athlete,i1,babbling to,b36,teammate,i19,i,2,b,e
+e2bp,1574,athlete_BABBLING_TO_teammate_IB2P,athlete,i1,babbling to,b36,teammate,i19,i,2,b,p
+e2ba,1575,athlete_BABBLING_TO_teammate_IB3A,athlete,i1,babbling to,b36,teammate,i19,i,2,b,a
+e3ae,10,ATHLETE_competing_with_enemy_IA1E,athlete,i1,competing with,b28,enemy,i22,i,3,a,e
+e3ap,11,ATHLETE_competing_with_enemy_IA2P,athlete,i1,competing with,b28,enemy,i22,i,3,a,p
+e3aa,12,ATHLETE_competing_with_enemy_IA3A,athlete,i1,competing with,b28,enemy,i22,i,3,a,a
+e3be,232,athlete_COMPETING_WITH_enemy_IB1E,athlete,i1,competing with,b28,enemy,i22,i,3,b,e
+e3bp,233,athlete_COMPETING_WITH_enemy_IB2P,athlete,i1,competing with,b28,enemy,i22,i,3,b,p
+e3ba,234,athlete_COMPETING_WITH_enemy_IB3A,athlete,i1,competing with,b28,enemy,i22,i,3,b,a
+e3oe,454,athlete_competing_with_ENEMY_IO1E,athlete,i1,competing with,b28,enemy,i22,i,3,o,e
+e3op,455,athlete_competing_with_ENEMY_IO2P,athlete,i1,competing with,b28,enemy,i22,i,3,o,p
+e3oa,456,athlete_competing_with_ENEMY_IO3A,athlete,i1,competing with,b28,enemy,i22,i,3,o,a
+e4ae,1,ATHLETE_entertaining_teammate_IA1E,athlete,i1,entertaining,b33,teammate,i19,i,4,a,e
+e4ap,2,ATHLETE_entertaining_teammate_IA2P,athlete,i1,entertaining,b33,teammate,i19,i,4,a,p
+e4aa,3,ATHLETE_entertaining_teammate_IA3A,athlete,i1,entertaining,b33,teammate,i19,i,4,a,a
+e4be,223,athlete_ENTERTAINING_teammate_IB1E,athlete,i1,entertaining,b33,teammate,i19,i,4,b,e
+e4bp,224,athlete_ENTERTAINING_teammate_IB2P,athlete,i1,entertaining,b33,teammate,i19,i,4,b,p
+e4ba,225,athlete_ENTERTAINING_teammate_IB3A,athlete,i1,entertaining,b33,teammate,i19,i,4,b,a
+e4oe,445,athlete_entertaining_TEAMMATE_IO1E,athlete,i1,entertaining,b33,teammate,i19,i,4,o,e
+e4op,446,athlete_entertaining_TEAMMATE_IO2P,athlete,i1,entertaining,b33,teammate,i19,i,4,o,p
+e4oa,447,athlete_entertaining_TEAMMATE_IO3A,athlete,i1,entertaining,b33,teammate,i19,i,4,o,a
+e5ae,226,ATHLETE_following_old_timer_IA1E,athlete,i1,following,b24,old timer,i9,i,5,a,e
+e5ap,227,ATHLETE_following_old_timer_IA2P,athlete,i1,following,b24,old timer,i9,i,5,a,p
+e5aa,228,ATHLETE_following_old_timer_IA3A,athlete,i1,following,b24,old timer,i9,i,5,a,a
+e5be,448,athlete_FOLLOWING_old_timer_IB1E,athlete,i1,following,b24,old timer,i9,i,5,b,e
+e5bp,449,athlete_FOLLOWING_old_timer_IB2P,athlete,i1,following,b24,old timer,i9,i,5,b,p
+e5ba,450,athlete_FOLLOWING_old_timer_IB3A,athlete,i1,following,b24,old timer,i9,i,5,b,a
+e5oe,670,athlete_following_OLD_TIMER_IO1E,athlete,i1,following,b24,old timer,i9,i,5,o,e
+e5op,671,athlete_following_OLD_TIMER_IO2P,athlete,i1,following,b24,old timer,i9,i,5,o,p
+e5oa,672,athlete_following_OLD_TIMER_IO3A,athlete,i1,following,b24,old timer,i9,i,5,o,a
+e6oe,31,athlete_interrupting_ENEMY_IO1E,athlete,i1,interrupting,b13,enemy,i22,i,6,o,e
+e6op,32,athlete_interrupting_ENEMY_IO2P,athlete,i1,interrupting,b13,enemy,i22,i,6,o,p
+e6oa,33,athlete_interrupting_ENEMY_IO3A,athlete,i1,interrupting,b13,enemy,i22,i,6,o,a
+e6ae,1360,ATHLETE_interrupting_enemy_IA1E,athlete,i1,interrupting,b13,enemy,i22,i,6,a,e
+e6ap,1361,ATHLETE_interrupting_enemy_IA2P,athlete,i1,interrupting,b13,enemy,i22,i,6,a,p
+e6aa,1362,ATHLETE_interrupting_enemy_IA3A,athlete,i1,interrupting,b13,enemy,i22,i,6,a,a
+e6be,1582,athlete_INTERRUPTING_enemy_IB1E,athlete,i1,interrupting,b13,enemy,i22,i,6,b,e
+e6bp,1583,athlete_INTERRUPTING_enemy_IB2P,athlete,i1,interrupting,b13,enemy,i22,i,6,b,p
+e6ba,1584,athlete_INTERRUPTING_enemy_IB3A,athlete,i1,interrupting,b13,enemy,i22,i,6,b,a
+e7ae,676,ATHLETE_joking_with_hothead_IA1E,athlete,i1,joking with,b1,hothead,i17,i,7,a,e
+e7ap,677,ATHLETE_joking_with_hothead_IA2P,athlete,i1,joking with,b1,hothead,i17,i,7,a,p
+e7aa,678,ATHLETE_joking_with_hothead_IA3A,athlete,i1,joking with,b1,hothead,i17,i,7,a,a
+e7be,898,athlete_JOKING_WITH_hothead_IB1E,athlete,i1,joking with,b1,hothead,i17,i,7,b,e
+e7bp,899,athlete_JOKING_WITH_hothead_IB2P,athlete,i1,joking with,b1,hothead,i17,i,7,b,p
+e7ba,900,athlete_JOKING_WITH_hothead_IB3A,athlete,i1,joking with,b1,hothead,i17,i,7,b,a
+e7oe,1120,athlete_joking_with_HOTHEAD_IO1E,athlete,i1,joking with,b1,hothead,i17,i,7,o,e
+e7op,1121,athlete_joking_with_HOTHEAD_IO2P,athlete,i1,joking with,b1,hothead,i17,i,7,o,p
+e7oa,1122,athlete_joking_with_HOTHEAD_IO3A,athlete,i1,joking with,b1,hothead,i17,i,7,o,a
+e8ae,19,ATHLETE_staring_at_teammate_IA1E,athlete,i1,staring at,b31,teammate,i19,i,8,a,e
+e8ap,20,ATHLETE_staring_at_teammate_IA2P,athlete,i1,staring at,b31,teammate,i19,i,8,a,p
+e8aa,21,ATHLETE_staring_at_teammate_IA3A,athlete,i1,staring at,b31,teammate,i19,i,8,a,a
+e8be,241,athlete_STARING_AT_teammate_IB1E,athlete,i1,staring at,b31,teammate,i19,i,8,b,e
+e8bp,242,athlete_STARING_AT_teammate_IB2P,athlete,i1,staring at,b31,teammate,i19,i,8,b,p
+e8ba,243,athlete_STARING_AT_teammate_IB3A,athlete,i1,staring at,b31,teammate,i19,i,8,b,a
+e8oe,463,athlete_staring_at_TEAMMATE_IO1E,athlete,i1,staring at,b31,teammate,i19,i,8,o,e
+e8op,464,athlete_staring_at_TEAMMATE_IO2P,athlete,i1,staring at,b31,teammate,i19,i,8,o,p
+e8oa,465,athlete_staring_at_TEAMMATE_IO3A,athlete,i1,staring at,b31,teammate,i19,i,8,o,a
+e9oe,4,athlete_watching_CHAMPION_IO1E,athlete,i1,watching,b3,champion,i24,i,9,o,e
+e9op,5,athlete_watching_CHAMPION_IO2P,athlete,i1,watching,b3,champion,i24,i,9,o,p
+e9oa,6,athlete_watching_CHAMPION_IO3A,athlete,i1,watching,b3,champion,i24,i,9,o,a
+e9ae,1333,ATHLETE_watching_champion_IA1E,athlete,i1,watching,b3,champion,i24,i,9,a,e
+e9ap,1334,ATHLETE_watching_champion_IA2P,athlete,i1,watching,b3,champion,i24,i,9,a,p
+e9aa,1335,ATHLETE_watching_champion_IA3A,athlete,i1,watching,b3,champion,i24,i,9,a,a
+e9be,1555,athlete_WATCHING_champion_IB1E,athlete,i1,watching,b3,champion,i24,i,9,b,e
+e9bp,1556,athlete_WATCHING_champion_IB2P,athlete,i1,watching,b3,champion,i24,i,9,b,p
+e9ba,1557,athlete_WATCHING_champion_IB3A,athlete,i1,watching,b3,champion,i24,i,9,b,a
+e10ae,469,BEGINNER_babbling_to_champion_IA1E,beginner,i18,babbling to,b36,champion,i24,i,10,a,e
+e10ap,470,BEGINNER_babbling_to_champion_IA2P,beginner,i18,babbling to,b36,champion,i24,i,10,a,p
+e10aa,471,BEGINNER_babbling_to_champion_IA3A,beginner,i18,babbling to,b36,champion,i24,i,10,a,a
+e10be,691,beginner_BABBLING_TO_champion_IB1E,beginner,i18,babbling to,b36,champion,i24,i,10,b,e
+e10bp,692,beginner_BABBLING_TO_champion_IB2P,beginner,i18,babbling to,b36,champion,i24,i,10,b,p
+e10ba,693,beginner_BABBLING_TO_champion_IB3A,beginner,i18,babbling to,b36,champion,i24,i,10,b,a
+e10oe,913,beginner_babbling_to_CHAMPION_IO1E,beginner,i18,babbling to,b36,champion,i24,i,10,o,e
+e10op,914,beginner_babbling_to_CHAMPION_IO2P,beginner,i18,babbling to,b36,champion,i24,i,10,o,p
+e10oa,915,beginner_babbling_to_CHAMPION_IO3A,beginner,i18,babbling to,b36,champion,i24,i,10,o,a
+e11ae,451,BEGINNER_obeying_champion_IA1E,beginner,i18,obeying,b30,champion,i24,i,11,a,e
+e11ap,452,BEGINNER_obeying_champion_IA2P,beginner,i18,obeying,b30,champion,i24,i,11,a,p
+e11aa,453,BEGINNER_obeying_champion_IA3A,beginner,i18,obeying,b30,champion,i24,i,11,a,a
+e11be,673,beginner_OBEYING_champion_IB1E,beginner,i18,obeying,b30,champion,i24,i,11,b,e
+e11bp,674,beginner_OBEYING_champion_IB2P,beginner,i18,obeying,b30,champion,i24,i,11,b,p
+e11ba,675,beginner_OBEYING_champion_IB3A,beginner,i18,obeying,b30,champion,i24,i,11,b,a
+e11oe,895,beginner_obeying_CHAMPION_IO1E,beginner,i18,obeying,b30,champion,i24,i,11,o,e
+e11op,896,beginner_obeying_CHAMPION_IO2P,beginner,i18,obeying,b30,champion,i24,i,11,o,p
+e11oa,897,beginner_obeying_CHAMPION_IO3A,beginner,i18,obeying,b30,champion,i24,i,11,o,a
+e12ae,1153,BRAT_obeying_old_timer_IA1E,brat,i45,obeying,b30,old timer,i9,i,12,a,e
+e12ap,1154,BRAT_obeying_old_timer_IA2P,brat,i45,obeying,b30,old timer,i9,i,12,a,p
+e12aa,1155,BRAT_obeying_old_timer_IA3A,brat,i45,obeying,b30,old timer,i9,i,12,a,a
+e12be,1375,brat_OBEYING_old_timer_IB1E,brat,i45,obeying,b30,old timer,i9,i,12,b,e
+e12bp,1376,brat_OBEYING_old_timer_IB2P,brat,i45,obeying,b30,old timer,i9,i,12,b,p
+e12ba,1377,brat_OBEYING_old_timer_IB3A,brat,i45,obeying,b30,old timer,i9,i,12,b,a
+e12oe,1597,brat_obeying_OLD_TIMER_IO1E,brat,i45,obeying,b30,old timer,i9,i,12,o,e
+e12op,1598,brat_obeying_OLD_TIMER_IO2P,brat,i45,obeying,b30,old timer,i9,i,12,o,p
+e12oa,1599,brat_obeying_OLD_TIMER_IO3A,brat,i45,obeying,b30,old timer,i9,i,12,o,a
+e13be,70,brat_STARING_AT_gossip_IB1E,brat,i45,staring at,b31,gossip,i11,i,13,b,e
+e13bp,71,brat_STARING_AT_gossip_IB2P,brat,i45,staring at,b31,gossip,i11,i,13,b,p
+e13ba,72,brat_STARING_AT_gossip_IB3A,brat,i45,staring at,b31,gossip,i11,i,13,b,a
+e13oe,292,brat_staring_at_GOSSIP_IO1E,brat,i45,staring at,b31,gossip,i11,i,13,o,e
+e13op,293,brat_staring_at_GOSSIP_IO2P,brat,i45,staring at,b31,gossip,i11,i,13,o,p
+e13oa,294,brat_staring_at_GOSSIP_IO3A,brat,i45,staring at,b31,gossip,i11,i,13,o,a
+e13ae,1621,BRAT_staring_at_gossip_IA1E,brat,i45,staring at,b31,gossip,i11,i,13,a,e
+e13ap,1622,BRAT_staring_at_gossip_IA2P,brat,i45,staring at,b31,gossip,i11,i,13,a,p
+e13aa,1623,BRAT_staring_at_gossip_IA3A,brat,i45,staring at,b31,gossip,i11,i,13,a,a
+e14be,61,brat_STARING_AT_old_timer_IB1E,brat,i45,staring at,b31,old timer,i9,i,14,b,e
+e14bp,62,brat_STARING_AT_old_timer_IB2P,brat,i45,staring at,b31,old timer,i9,i,14,b,p
+e14ba,63,brat_STARING_AT_old_timer_IB3A,brat,i45,staring at,b31,old timer,i9,i,14,b,a
+e14oe,283,brat_staring_at_OLD_TIMER_IO1E,brat,i45,staring at,b31,old timer,i9,i,14,o,e
+e14op,284,brat_staring_at_OLD_TIMER_IO2P,brat,i45,staring at,b31,old timer,i9,i,14,o,p
+e14oa,285,brat_staring_at_OLD_TIMER_IO3A,brat,i45,staring at,b31,old timer,i9,i,14,o,a
+e14ae,1612,BRAT_staring_at_old_timer_IA1E,brat,i45,staring at,b31,old timer,i9,i,14,a,e
+e14ap,1613,BRAT_staring_at_old_timer_IA2P,brat,i45,staring at,b31,old timer,i9,i,14,a,p
+e14aa,1614,BRAT_staring_at_old_timer_IA3A,brat,i45,staring at,b31,old timer,i9,i,14,a,a
+e15oe,103,bully_ignoring_YOUNGSTER_IO1E,bully,i27,ignoring,b32,youngster,i32,i,15,o,e
+e15op,104,bully_ignoring_YOUNGSTER_IO2P,bully,i27,ignoring,b32,youngster,i32,i,15,o,p
+e15oa,105,bully_ignoring_YOUNGSTER_IO3A,bully,i27,ignoring,b32,youngster,i32,i,15,o,a
+e15ae,1432,BULLY_ignoring_youngster_IA1E,bully,i27,ignoring,b32,youngster,i32,i,15,a,e
+e15ap,1433,BULLY_ignoring_youngster_IA2P,bully,i27,ignoring,b32,youngster,i32,i,15,a,p
+e15aa,1434,BULLY_ignoring_youngster_IA3A,bully,i27,ignoring,b32,youngster,i32,i,15,a,a
+e15be,1654,bully_IGNORING_youngster_IB1E,bully,i27,ignoring,b32,youngster,i32,i,15,b,e
+e15bp,1655,bully_IGNORING_youngster_IB2P,bully,i27,ignoring,b32,youngster,i32,i,15,b,p
+e15ba,1656,bully_IGNORING_youngster_IB3A,bully,i27,ignoring,b32,youngster,i32,i,15,b,a
+e16ae,82,BULLY_slugging_child_IA1E,bully,i27,slugging,b16,child,i14,i,16,a,e
+e16ap,83,BULLY_slugging_child_IA2P,bully,i27,slugging,b16,child,i14,i,16,a,p
+e16aa,84,BULLY_slugging_child_IA3A,bully,i27,slugging,b16,child,i14,i,16,a,a
+e16be,304,bully_SLUGGING_child_IB1E,bully,i27,slugging,b16,child,i14,i,16,b,e
+e16bp,305,bully_SLUGGING_child_IB2P,bully,i27,slugging,b16,child,i14,i,16,b,p
+e16ba,306,bully_SLUGGING_child_IB3A,bully,i27,slugging,b16,child,i14,i,16,b,a
+e16oe,526,bully_slugging_CHILD_IO1E,bully,i27,slugging,b16,child,i14,i,16,o,e
+e16op,527,bully_slugging_CHILD_IO2P,bully,i27,slugging,b16,child,i14,i,16,o,p
+e16oa,528,bully_slugging_CHILD_IO3A,bully,i27,slugging,b16,child,i14,i,16,o,a
+e17ae,253,CHAMPION_blabbering_to_gossip_IA1E,champion,i24,blabbering to,b4,gossip,i11,i,17,a,e
+e17ap,254,CHAMPION_blabbering_to_gossip_IA2P,champion,i24,blabbering to,b4,gossip,i11,i,17,a,p
+e17aa,255,CHAMPION_blabbering_to_gossip_IA3A,champion,i24,blabbering to,b4,gossip,i11,i,17,a,a
+e17be,475,champion_BLABBERING_TO_gossip_IB1E,champion,i24,blabbering to,b4,gossip,i11,i,17,b,e
+e17bp,476,champion_BLABBERING_TO_gossip_IB2P,champion,i24,blabbering to,b4,gossip,i11,i,17,b,p
+e17ba,477,champion_BLABBERING_TO_gossip_IB3A,champion,i24,blabbering to,b4,gossip,i11,i,17,b,a
+e17oe,697,champion_blabbering_to_GOSSIP_IO1E,champion,i24,blabbering to,b4,gossip,i11,i,17,o,e
+e17op,698,champion_blabbering_to_GOSSIP_IO2P,champion,i24,blabbering to,b4,gossip,i11,i,17,o,p
+e17oa,699,champion_blabbering_to_GOSSIP_IO3A,champion,i24,blabbering to,b4,gossip,i11,i,17,o,a
+e18ae,505,CHATTERBOX_interrupting_teammate_IA1E,chatterbox,i5,interrupting,b13,teammate,i19,i,18,a,e
+e18ap,506,CHATTERBOX_interrupting_teammate_IA2P,chatterbox,i5,interrupting,b13,teammate,i19,i,18,a,p
+e18aa,507,CHATTERBOX_interrupting_teammate_IA3A,chatterbox,i5,interrupting,b13,teammate,i19,i,18,a,a
+e18be,727,chatterbox_INTERRUPTING_teammate_IB1E,chatterbox,i5,interrupting,b13,teammate,i19,i,18,b,e
+e18bp,728,chatterbox_INTERRUPTING_teammate_IB2P,chatterbox,i5,interrupting,b13,teammate,i19,i,18,b,p
+e18ba,729,chatterbox_INTERRUPTING_teammate_IB3A,chatterbox,i5,interrupting,b13,teammate,i19,i,18,b,a
+e18oe,949,chatterbox_interrupting_TEAMMATE_IO1E,chatterbox,i5,interrupting,b13,teammate,i19,i,18,o,e
+e18op,950,chatterbox_interrupting_TEAMMATE_IO2P,chatterbox,i5,interrupting,b13,teammate,i19,i,18,o,p
+e18oa,951,chatterbox_interrupting_TEAMMATE_IO3A,chatterbox,i5,interrupting,b13,teammate,i19,i,18,o,a
+e19be,52,chatterbox_JOKING_WITH_gossip_IB1E,chatterbox,i5,joking with,b1,gossip,i11,i,19,b,e
+e19bp,53,chatterbox_JOKING_WITH_gossip_IB2P,chatterbox,i5,joking with,b1,gossip,i11,i,19,b,p
+e19ba,54,chatterbox_JOKING_WITH_gossip_IB3A,chatterbox,i5,joking with,b1,gossip,i11,i,19,b,a
+e19oe,274,chatterbox_joking_with_GOSSIP_IO1E,chatterbox,i5,joking with,b1,gossip,i11,i,19,o,e
+e19op,275,chatterbox_joking_with_GOSSIP_IO2P,chatterbox,i5,joking with,b1,gossip,i11,i,19,o,p
+e19oa,276,chatterbox_joking_with_GOSSIP_IO3A,chatterbox,i5,joking with,b1,gossip,i11,i,19,o,a
+e19ae,1603,CHATTERBOX_joking_with_gossip_IA1E,chatterbox,i5,joking with,b1,gossip,i11,i,19,a,e
+e19ap,1604,CHATTERBOX_joking_with_gossip_IA2P,chatterbox,i5,joking with,b1,gossip,i11,i,19,a,p
+e19aa,1605,CHATTERBOX_joking_with_gossip_IA3A,chatterbox,i5,joking with,b1,gossip,i11,i,19,a,a
+e20ae,343,CHILD_comforting_deadbeat_dad_IA1E,child,i14,comforting,b14,deadbeat dad,i35,i,20,a,e
+e20ap,344,CHILD_comforting_deadbeat_dad_IA2P,child,i14,comforting,b14,deadbeat dad,i35,i,20,a,p
+e20aa,345,CHILD_comforting_deadbeat_dad_IA3A,child,i14,comforting,b14,deadbeat dad,i35,i,20,a,a
+e20be,565,child_COMFORTING_deadbeat_dad_IB1E,child,i14,comforting,b14,deadbeat dad,i35,i,20,b,e
+e20bp,566,child_COMFORTING_deadbeat_dad_IB2P,child,i14,comforting,b14,deadbeat dad,i35,i,20,b,p
+e20ba,567,child_COMFORTING_deadbeat_dad_IB3A,child,i14,comforting,b14,deadbeat dad,i35,i,20,b,a
+e20oe,787,child_comforting_DEADBEAT_DAD_IO1E,child,i14,comforting,b14,deadbeat dad,i35,i,20,o,e
+e20op,788,child_comforting_DEADBEAT_DAD_IO2P,child,i14,comforting,b14,deadbeat dad,i35,i,20,o,p
+e20oa,789,child_comforting_DEADBEAT_DAD_IO3A,child,i14,comforting,b14,deadbeat dad,i35,i,20,o,a
+e21ae,361,CHILD_deprecating_unemployed_person_IA1E,child,i14,deprecating,b26,unemployed person,i12,i,21,a,e
+e21ap,362,CHILD_deprecating_unemployed_person_IA2P,child,i14,deprecating,b26,unemployed person,i12,i,21,a,p
+e21aa,363,CHILD_deprecating_unemployed_person_IA3A,child,i14,deprecating,b26,unemployed person,i12,i,21,a,a
+e21be,583,child_DEPRECATING_unemployed_person_IB1E,child,i14,deprecating,b26,unemployed person,i12,i,21,b,e
+e21bp,584,child_DEPRECATING_unemployed_person_IB2P,child,i14,deprecating,b26,unemployed person,i12,i,21,b,p
+e21ba,585,child_DEPRECATING_unemployed_person_IB3A,child,i14,deprecating,b26,unemployed person,i12,i,21,b,a
+e21oe,805,child_deprecating_UNEMPLOYED_PERSON_IO1E,child,i14,deprecating,b26,unemployed person,i12,i,21,o,e
+e21op,806,child_deprecating_UNEMPLOYED_PERSON_IO2P,child,i14,deprecating,b26,unemployed person,i12,i,21,o,p
+e21oa,807,child_deprecating_UNEMPLOYED_PERSON_IO3A,child,i14,deprecating,b26,unemployed person,i12,i,21,o,a
+e22ae,127,CHILD_escaping_bully_IA1E,child,i14,escaping,b7,bully,i27,i,22,a,e
+e22ap,128,CHILD_escaping_bully_IA2P,child,i14,escaping,b7,bully,i27,i,22,a,p
+e22aa,129,CHILD_escaping_bully_IA3A,child,i14,escaping,b7,bully,i27,i,22,a,a
+e22be,349,child_ESCAPING_bully_IB1E,child,i14,escaping,b7,bully,i27,i,22,b,e
+e22bp,350,child_ESCAPING_bully_IB2P,child,i14,escaping,b7,bully,i27,i,22,b,p
+e22ba,351,child_ESCAPING_bully_IB3A,child,i14,escaping,b7,bully,i27,i,22,b,a
+e22oe,571,child_escaping_BULLY_IO1E,child,i14,escaping,b7,bully,i27,i,22,o,e
+e22op,572,child_escaping_BULLY_IO2P,child,i14,escaping,b7,bully,i27,i,22,o,p
+e22oa,573,child_escaping_BULLY_IO3A,child,i14,escaping,b7,bully,i27,i,22,o,a
+e23ae,802,CHILD_jesting_with_unemployed_person_IA1E,child,i14,jesting with,b11,unemployed person,i12,i,23,a,e
+e23ap,803,CHILD_jesting_with_unemployed_person_IA2P,child,i14,jesting with,b11,unemployed person,i12,i,23,a,p
+e23aa,804,CHILD_jesting_with_unemployed_person_IA3A,child,i14,jesting with,b11,unemployed person,i12,i,23,a,a
+e23be,1024,child_JESTING_WITH_unemployed_person_IB1E,child,i14,jesting with,b11,unemployed person,i12,i,23,b,e
+e23bp,1025,child_JESTING_WITH_unemployed_person_IB2P,child,i14,jesting with,b11,unemployed person,i12,i,23,b,p
+e23ba,1026,child_JESTING_WITH_unemployed_person_IB3A,child,i14,jesting with,b11,unemployed person,i12,i,23,b,a
+e23oe,1246,child_jesting_with_UNEMPLOYED_PERSON_IO1E,child,i14,jesting with,b11,unemployed person,i12,i,23,o,e
+e23op,1247,child_jesting_with_UNEMPLOYED_PERSON_IO2P,child,i14,jesting with,b11,unemployed person,i12,i,23,o,p
+e23oa,1248,child_jesting_with_UNEMPLOYED_PERSON_IO3A,child,i14,jesting with,b11,unemployed person,i12,i,23,o,a
+e24ae,334,CHILD_snuggling_grandparent_IA1E,child,i14,snuggling,b29,grandparent,i31,i,24,a,e
+e24ap,335,CHILD_snuggling_grandparent_IA2P,child,i14,snuggling,b29,grandparent,i31,i,24,a,p
+e24aa,336,CHILD_snuggling_grandparent_IA3A,child,i14,snuggling,b29,grandparent,i31,i,24,a,a
+e24be,556,child_SNUGGLING_grandparent_IB1E,child,i14,snuggling,b29,grandparent,i31,i,24,b,e
+e24bp,557,child_SNUGGLING_grandparent_IB2P,child,i14,snuggling,b29,grandparent,i31,i,24,b,p
+e24ba,558,child_SNUGGLING_grandparent_IB3A,child,i14,snuggling,b29,grandparent,i31,i,24,b,a
+e24oe,778,child_snuggling_GRANDPARENT_IO1E,child,i14,snuggling,b29,grandparent,i31,i,24,o,e
+e24op,779,child_snuggling_GRANDPARENT_IO2P,child,i14,snuggling,b29,grandparent,i31,i,24,o,p
+e24oa,780,child_snuggling_GRANDPARENT_IO3A,child,i14,snuggling,b29,grandparent,i31,i,24,o,a
+e25ae,352,CHILD_submitting_to_grandfather_IA1E,child,i14,submitting to,b5,grandfather,i41,i,25,a,e
+e25ap,353,CHILD_submitting_to_grandfather_IA2P,child,i14,submitting to,b5,grandfather,i41,i,25,a,p
+e25aa,354,CHILD_submitting_to_grandfather_IA3A,child,i14,submitting to,b5,grandfather,i41,i,25,a,a
+e25be,574,child_SUBMITTING_TO_grandfather_IB1E,child,i14,submitting to,b5,grandfather,i41,i,25,b,e
+e25bp,575,child_SUBMITTING_TO_grandfather_IB2P,child,i14,submitting to,b5,grandfather,i41,i,25,b,p
+e25ba,576,child_SUBMITTING_TO_grandfather_IB3A,child,i14,submitting to,b5,grandfather,i41,i,25,b,a
+e25oe,796,child_submitting_to_GRANDFATHER_IO1E,child,i14,submitting to,b5,grandfather,i41,i,25,o,e
+e25op,797,child_submitting_to_GRANDFATHER_IO2P,child,i14,submitting to,b5,grandfather,i41,i,25,o,p
+e25oa,798,child_submitting_to_GRANDFATHER_IO3A,child,i14,submitting to,b5,grandfather,i41,i,25,o,a
+e26be,115,deadbeat_dad_CHEWING_OUT_grandparent_IB1E,deadbeat dad,i35,chewing out,b8,grandparent,i31,i,26,b,e
+e26bp,116,deadbeat_dad_CHEWING_OUT_grandparent_IB2P,deadbeat dad,i35,chewing out,b8,grandparent,i31,i,26,b,p
+e26ba,117,deadbeat_dad_CHEWING_OUT_grandparent_IB3A,deadbeat dad,i35,chewing out,b8,grandparent,i31,i,26,b,a
+e26oe,337,deadbeat_dad_chewing_out_GRANDPARENT_IO1E,deadbeat dad,i35,chewing out,b8,grandparent,i31,i,26,o,e
+e26op,338,deadbeat_dad_chewing_out_GRANDPARENT_IO2P,deadbeat dad,i35,chewing out,b8,grandparent,i31,i,26,o,p
+e26oa,339,deadbeat_dad_chewing_out_GRANDPARENT_IO3A,deadbeat dad,i35,chewing out,b8,grandparent,i31,i,26,o,a
+e26ae,1666,DEADBEAT_DAD_chewing_out_grandparent_IA1E,deadbeat dad,i35,chewing out,b8,grandparent,i31,i,26,a,e
+e26ap,1667,DEADBEAT_DAD_chewing_out_grandparent_IA2P,deadbeat dad,i35,chewing out,b8,grandparent,i31,i,26,a,p
+e26aa,1668,DEADBEAT_DAD_chewing_out_grandparent_IA3A,deadbeat dad,i35,chewing out,b8,grandparent,i31,i,26,a,a
+e27ae,1243,DEADBEAT_DAD_ignoring_physician_IA1E,deadbeat dad,i35,ignoring,b32,physician,i42,i,27,a,e
+e27ap,1244,DEADBEAT_DAD_ignoring_physician_IA2P,deadbeat dad,i35,ignoring,b32,physician,i42,i,27,a,p
+e27aa,1245,DEADBEAT_DAD_ignoring_physician_IA3A,deadbeat dad,i35,ignoring,b32,physician,i42,i,27,a,a
+e27be,1465,deadbeat_dad_IGNORING_physician_IB1E,deadbeat dad,i35,ignoring,b32,physician,i42,i,27,b,e
+e27bp,1466,deadbeat_dad_IGNORING_physician_IB2P,deadbeat dad,i35,ignoring,b32,physician,i42,i,27,b,p
+e27ba,1467,deadbeat_dad_IGNORING_physician_IB3A,deadbeat dad,i35,ignoring,b32,physician,i42,i,27,b,a
+e27oe,1687,deadbeat_dad_ignoring_PHYSICIAN_IO1E,deadbeat dad,i35,ignoring,b32,physician,i42,i,27,o,e
+e27op,1688,deadbeat_dad_ignoring_PHYSICIAN_IO2P,deadbeat dad,i35,ignoring,b32,physician,i42,i,27,o,p
+e27oa,1689,deadbeat_dad_ignoring_PHYSICIAN_IO3A,deadbeat dad,i35,ignoring,b32,physician,i42,i,27,o,a
+e28ae,1027,DEADBEAT_DAD_lusting_for_teenager_IA1E,deadbeat dad,i35,lusting for,b15,teenager,i20,i,28,a,e
+e28ap,1028,DEADBEAT_DAD_lusting_for_teenager_IA2P,deadbeat dad,i35,lusting for,b15,teenager,i20,i,28,a,p
+e28aa,1029,DEADBEAT_DAD_lusting_for_teenager_IA3A,deadbeat dad,i35,lusting for,b15,teenager,i20,i,28,a,a
+e28be,1249,deadbeat_dad_LUSTING_FOR_teenager_IB1E,deadbeat dad,i35,lusting for,b15,teenager,i20,i,28,b,e
+e28bp,1250,deadbeat_dad_LUSTING_FOR_teenager_IB2P,deadbeat dad,i35,lusting for,b15,teenager,i20,i,28,b,p
+e28ba,1251,deadbeat_dad_LUSTING_FOR_teenager_IB3A,deadbeat dad,i35,lusting for,b15,teenager,i20,i,28,b,a
+e28oe,1471,deadbeat_dad_lusting_for_TEENAGER_IO1E,deadbeat dad,i35,lusting for,b15,teenager,i20,i,28,o,e
+e28op,1472,deadbeat_dad_lusting_for_TEENAGER_IO2P,deadbeat dad,i35,lusting for,b15,teenager,i20,i,28,o,p
+e28oa,1473,deadbeat_dad_lusting_for_TEENAGER_IO3A,deadbeat dad,i35,lusting for,b15,teenager,i20,i,28,o,a
+e29ae,1009,DEADBEAT_DAD_scolding_toddler_IA1E,deadbeat dad,i35,scolding,b12,toddler,i26,i,29,a,e
+e29ap,1010,DEADBEAT_DAD_scolding_toddler_IA2P,deadbeat dad,i35,scolding,b12,toddler,i26,i,29,a,p
+e29aa,1011,DEADBEAT_DAD_scolding_toddler_IA3A,deadbeat dad,i35,scolding,b12,toddler,i26,i,29,a,a
+e29be,1231,deadbeat_dad_SCOLDING_toddler_IB1E,deadbeat dad,i35,scolding,b12,toddler,i26,i,29,b,e
+e29bp,1232,deadbeat_dad_SCOLDING_toddler_IB2P,deadbeat dad,i35,scolding,b12,toddler,i26,i,29,b,p
+e29ba,1233,deadbeat_dad_SCOLDING_toddler_IB3A,deadbeat dad,i35,scolding,b12,toddler,i26,i,29,b,a
+e29oe,1453,deadbeat_dad_scolding_TODDLER_IO1E,deadbeat dad,i35,scolding,b12,toddler,i26,i,29,o,e
+e29op,1454,deadbeat_dad_scolding_TODDLER_IO2P,deadbeat dad,i35,scolding,b12,toddler,i26,i,29,o,p
+e29oa,1455,deadbeat_dad_scolding_TODDLER_IO3A,deadbeat dad,i35,scolding,b12,toddler,i26,i,29,o,a
+e30ae,289,DIVORCÉ_blabbering_to_gossip_IA1E,divorcé,i16,blabbering to,b4,gossip,i11,i,30,a,e
+e30ap,290,DIVORCÉ_blabbering_to_gossip_IA2P,divorcé,i16,blabbering to,b4,gossip,i11,i,30,a,p
+e30aa,291,DIVORCÉ_blabbering_to_gossip_IA3A,divorcé,i16,blabbering to,b4,gossip,i11,i,30,a,a
+e30be,511,divorcé_BLABBERING_TO_gossip_IB1E,divorcé,i16,blabbering to,b4,gossip,i11,i,30,b,e
+e30bp,512,divorcé_BLABBERING_TO_gossip_IB2P,divorcé,i16,blabbering to,b4,gossip,i11,i,30,b,p
+e30ba,513,divorcé_BLABBERING_TO_gossip_IB3A,divorcé,i16,blabbering to,b4,gossip,i11,i,30,b,a
+e30oe,733,divorcé_blabbering_to_GOSSIP_IO1E,divorcé,i16,blabbering to,b4,gossip,i11,i,30,o,e
+e30op,734,divorcé_blabbering_to_GOSSIP_IO2P,divorcé,i16,blabbering to,b4,gossip,i11,i,30,o,p
+e30oa,735,divorcé_blabbering_to_GOSSIP_IO3A,divorcé,i16,blabbering to,b4,gossip,i11,i,30,o,a
+e31ae,730,DIVORCÉ_confining_brat_IA1E,divorcé,i16,confining,b20,brat,i45,i,31,a,e
+e31ap,731,DIVORCÉ_confining_brat_IA2P,divorcé,i16,confining,b20,brat,i45,i,31,a,p
+e31aa,732,DIVORCÉ_confining_brat_IA3A,divorcé,i16,confining,b20,brat,i45,i,31,a,a
+e31be,952,divorcé_CONFINING_brat_IB1E,divorcé,i16,confining,b20,brat,i45,i,31,b,e
+e31bp,953,divorcé_CONFINING_brat_IB2P,divorcé,i16,confining,b20,brat,i45,i,31,b,p
+e31ba,954,divorcé_CONFINING_brat_IB3A,divorcé,i16,confining,b20,brat,i45,i,31,b,a
+e31oe,1174,divorcé_confining_BRAT_IO1E,divorcé,i16,confining,b20,brat,i45,i,31,o,e
+e31op,1175,divorcé_confining_BRAT_IO2P,divorcé,i16,confining,b20,brat,i45,i,31,o,p
+e31oa,1176,divorcé_confining_BRAT_IO3A,divorcé,i16,confining,b20,brat,i45,i,31,o,a
+e32be,124,do_nothing_CHEWING_OUT_unemployed_person_IB1E,do nothing,i40,chewing out,b8,unemployed person,i12,i,32,b,e
+e32bp,125,do_nothing_CHEWING_OUT_unemployed_person_IB2P,do nothing,i40,chewing out,b8,unemployed person,i12,i,32,b,p
+e32ba,126,do_nothing_CHEWING_OUT_unemployed_person_IB3A,do nothing,i40,chewing out,b8,unemployed person,i12,i,32,b,a
+e32oe,346,do_nothing_chewing_out_UNEMPLOYED_PERSON_IO1E,do nothing,i40,chewing out,b8,unemployed person,i12,i,32,o,e
+e32op,347,do_nothing_chewing_out_UNEMPLOYED_PERSON_IO2P,do nothing,i40,chewing out,b8,unemployed person,i12,i,32,o,p
+e32oa,348,do_nothing_chewing_out_UNEMPLOYED_PERSON_IO3A,do nothing,i40,chewing out,b8,unemployed person,i12,i,32,o,a
+e32ae,1675,DO_NOTHING_chewing_out_unemployed_person_IA1E,do nothing,i40,chewing out,b8,unemployed person,i12,i,32,a,e
+e32ap,1676,DO_NOTHING_chewing_out_unemployed_person_IA2P,do nothing,i40,chewing out,b8,unemployed person,i12,i,32,a,p
+e32aa,1677,DO_NOTHING_chewing_out_unemployed_person_IA3A,do nothing,i40,chewing out,b8,unemployed person,i12,i,32,a,a
+e33be,142,do_nothing_JESTING_WITH_dropout_IB1E,do nothing,i40,jesting with,b11,dropout,i46,i,33,b,e
+e33bp,143,do_nothing_JESTING_WITH_dropout_IB2P,do nothing,i40,jesting with,b11,dropout,i46,i,33,b,p
+e33ba,144,do_nothing_JESTING_WITH_dropout_IB3A,do nothing,i40,jesting with,b11,dropout,i46,i,33,b,a
+e33oe,364,do_nothing_jesting_with_DROPOUT_IO1E,do nothing,i40,jesting with,b11,dropout,i46,i,33,o,e
+e33op,365,do_nothing_jesting_with_DROPOUT_IO2P,do nothing,i40,jesting with,b11,dropout,i46,i,33,o,p
+e33oa,366,do_nothing_jesting_with_DROPOUT_IO3A,do nothing,i40,jesting with,b11,dropout,i46,i,33,o,a
+e33ae,1693,DO_NOTHING_jesting_with_dropout_IA1E,do nothing,i40,jesting with,b11,dropout,i46,i,33,a,e
+e33ap,1694,DO_NOTHING_jesting_with_dropout_IA2P,do nothing,i40,jesting with,b11,dropout,i46,i,33,a,p
+e33aa,1695,DO_NOTHING_jesting_with_dropout_IA3A,do nothing,i40,jesting with,b11,dropout,i46,i,33,a,a
+e34ae,1000,DO_NOTHING_scolding_bully_IA1E,do nothing,i40,scolding,b12,bully,i27,i,34,a,e
+e34ap,1001,DO_NOTHING_scolding_bully_IA2P,do nothing,i40,scolding,b12,bully,i27,i,34,a,p
+e34aa,1002,DO_NOTHING_scolding_bully_IA3A,do nothing,i40,scolding,b12,bully,i27,i,34,a,a
+e34be,1222,do_nothing_SCOLDING_bully_IB1E,do nothing,i40,scolding,b12,bully,i27,i,34,b,e
+e34bp,1223,do_nothing_SCOLDING_bully_IB2P,do nothing,i40,scolding,b12,bully,i27,i,34,b,p
+e34ba,1224,do_nothing_SCOLDING_bully_IB3A,do nothing,i40,scolding,b12,bully,i27,i,34,b,a
+e34oe,1444,do_nothing_scolding_BULLY_IO1E,do nothing,i40,scolding,b12,bully,i27,i,34,o,e
+e34op,1445,do_nothing_scolding_BULLY_IO2P,do nothing,i40,scolding,b12,bully,i27,i,34,o,p
+e34oa,1446,do_nothing_scolding_BULLY_IO3A,do nothing,i40,scolding,b12,bully,i27,i,34,o,a
+e35ae,568,DO_NOTHING_soothing_genius_IA1E,do nothing,i40,soothing,b34,genius,i25,i,35,a,e
+e35ap,569,DO_NOTHING_soothing_genius_IA2P,do nothing,i40,soothing,b34,genius,i25,i,35,a,p
+e35aa,570,DO_NOTHING_soothing_genius_IA3A,do nothing,i40,soothing,b34,genius,i25,i,35,a,a
+e35be,790,do_nothing_SOOTHING_genius_IB1E,do nothing,i40,soothing,b34,genius,i25,i,35,b,e
+e35bp,791,do_nothing_SOOTHING_genius_IB2P,do nothing,i40,soothing,b34,genius,i25,i,35,b,p
+e35ba,792,do_nothing_SOOTHING_genius_IB3A,do nothing,i40,soothing,b34,genius,i25,i,35,b,a
+e35oe,1012,do_nothing_soothing_GENIUS_IO1E,do nothing,i40,soothing,b34,genius,i25,i,35,o,e
+e35op,1013,do_nothing_soothing_GENIUS_IO2P,do nothing,i40,soothing,b34,genius,i25,i,35,o,p
+e35oa,1014,do_nothing_soothing_GENIUS_IO3A,do nothing,i40,soothing,b34,genius,i25,i,35,o,a
+e36ae,1225,DROPOUT_comforting_genius_IA1E,dropout,i46,comforting,b14,genius,i25,i,36,a,e
+e36ap,1226,DROPOUT_comforting_genius_IA2P,dropout,i46,comforting,b14,genius,i25,i,36,a,p
+e36aa,1227,DROPOUT_comforting_genius_IA3A,dropout,i46,comforting,b14,genius,i25,i,36,a,a
+e36be,1447,dropout_COMFORTING_genius_IB1E,dropout,i46,comforting,b14,genius,i25,i,36,b,e
+e36bp,1448,dropout_COMFORTING_genius_IB2P,dropout,i46,comforting,b14,genius,i25,i,36,b,p
+e36ba,1449,dropout_COMFORTING_genius_IB3A,dropout,i46,comforting,b14,genius,i25,i,36,b,a
+e36oe,1669,dropout_comforting_GENIUS_IO1E,dropout,i46,comforting,b14,genius,i25,i,36,o,e
+e36op,1670,dropout_comforting_GENIUS_IO2P,dropout,i46,comforting,b14,genius,i25,i,36,o,p
+e36oa,1671,dropout_comforting_GENIUS_IO3A,dropout,i46,comforting,b14,genius,i25,i,36,o,a
+e37oe,40,enemy_following_HEROINE_IO1E,enemy,i22,following,b24,heroine,i13,i,37,o,e
+e37op,41,enemy_following_HEROINE_IO2P,enemy,i22,following,b24,heroine,i13,i,37,o,p
+e37oa,42,enemy_following_HEROINE_IO3A,enemy,i22,following,b24,heroine,i13,i,37,o,a
+e37ae,1369,ENEMY_following_heroine_IA1E,enemy,i22,following,b24,heroine,i13,i,37,a,e
+e37ap,1370,ENEMY_following_heroine_IA2P,enemy,i22,following,b24,heroine,i13,i,37,a,p
+e37aa,1371,ENEMY_following_heroine_IA3A,enemy,i22,following,b24,heroine,i13,i,37,a,a
+e37be,1591,enemy_FOLLOWING_heroine_IB1E,enemy,i22,following,b24,heroine,i13,i,37,b,e
+e37bp,1592,enemy_FOLLOWING_heroine_IB2P,enemy,i22,following,b24,heroine,i13,i,37,b,p
+e37ba,1593,enemy_FOLLOWING_heroine_IB3A,enemy,i22,following,b24,heroine,i13,i,37,b,a
+e38ae,55,ENEMY_monitoring_athlete_IA1E,enemy,i22,monitoring,b25,athlete,i1,i,38,a,e
+e38ap,56,ENEMY_monitoring_athlete_IA2P,enemy,i22,monitoring,b25,athlete,i1,i,38,a,p
+e38aa,57,ENEMY_monitoring_athlete_IA3A,enemy,i22,monitoring,b25,athlete,i1,i,38,a,a
+e38be,277,enemy_MONITORING_athlete_IB1E,enemy,i22,monitoring,b25,athlete,i1,i,38,b,e
+e38bp,278,enemy_MONITORING_athlete_IB2P,enemy,i22,monitoring,b25,athlete,i1,i,38,b,p
+e38ba,279,enemy_MONITORING_athlete_IB3A,enemy,i22,monitoring,b25,athlete,i1,i,38,b,a
+e38oe,499,enemy_monitoring_ATHLETE_IO1E,enemy,i22,monitoring,b25,athlete,i1,i,38,o,e
+e38op,500,enemy_monitoring_ATHLETE_IO2P,enemy,i22,monitoring,b25,athlete,i1,i,38,o,p
+e38oa,501,enemy_monitoring_ATHLETE_IO3A,enemy,i22,monitoring,b25,athlete,i1,i,38,o,a
+e39oe,58,executioner_fussing_over_HEROINE_IO1E,executioner,i28,fussing over,b9,heroine,i13,i,39,o,e
+e39op,59,executioner_fussing_over_HEROINE_IO2P,executioner,i28,fussing over,b9,heroine,i13,i,39,o,p
+e39oa,60,executioner_fussing_over_HEROINE_IO3A,executioner,i28,fussing over,b9,heroine,i13,i,39,o,a
+e39ae,1387,EXECUTIONER_fussing_over_heroine_IA1E,executioner,i28,fussing over,b9,heroine,i13,i,39,a,e
+e39ap,1388,EXECUTIONER_fussing_over_heroine_IA2P,executioner,i28,fussing over,b9,heroine,i13,i,39,a,p
+e39aa,1389,EXECUTIONER_fussing_over_heroine_IA3A,executioner,i28,fussing over,b9,heroine,i13,i,39,a,a
+e39be,1609,executioner_FUSSING_OVER_heroine_IB1E,executioner,i28,fussing over,b9,heroine,i13,i,39,b,e
+e39bp,1610,executioner_FUSSING_OVER_heroine_IB2P,executioner,i28,fussing over,b9,heroine,i13,i,39,b,p
+e39ba,1611,executioner_FUSSING_OVER_heroine_IB3A,executioner,i28,fussing over,b9,heroine,i13,i,39,b,a
+e40ae,46,EXECUTIONER_joking_with_serial_murderer_IA1E,executioner,i28,joking with,b1,serial murderer,i39,i,40,a,e
+e40ap,47,EXECUTIONER_joking_with_serial_murderer_IA2P,executioner,i28,joking with,b1,serial murderer,i39,i,40,a,p
+e40aa,48,EXECUTIONER_joking_with_serial_murderer_IA3A,executioner,i28,joking with,b1,serial murderer,i39,i,40,a,a
+e40be,268,executioner_JOKING_WITH_serial_murderer_IB1E,executioner,i28,joking with,b1,serial murderer,i39,i,40,b,e
+e40bp,269,executioner_JOKING_WITH_serial_murderer_IB2P,executioner,i28,joking with,b1,serial murderer,i39,i,40,b,p
+e40ba,270,executioner_JOKING_WITH_serial_murderer_IB3A,executioner,i28,joking with,b1,serial murderer,i39,i,40,b,a
+e40oe,490,executioner_joking_with_SERIAL_MURDERER_IO1E,executioner,i28,joking with,b1,serial murderer,i39,i,40,o,e
+e40op,491,executioner_joking_with_SERIAL_MURDERER_IO2P,executioner,i28,joking with,b1,serial murderer,i39,i,40,o,p
+e40oa,492,executioner_joking_with_SERIAL_MURDERER_IO3A,executioner,i28,joking with,b1,serial murderer,i39,i,40,o,a
+e41ae,37,EXECUTIONER_laughing_with_registered_nurse_IA1E,executioner,i28,laughing with,b6,registered nurse,i7,i,41,a,e
+e41ap,38,EXECUTIONER_laughing_with_registered_nurse_IA2P,executioner,i28,laughing with,b6,registered nurse,i7,i,41,a,p
+e41aa,39,EXECUTIONER_laughing_with_registered_nurse_IA3A,executioner,i28,laughing with,b6,registered nurse,i7,i,41,a,a
+e41be,259,executioner_LAUGHING_WITH_registered_nurse_IB1E,executioner,i28,laughing with,b6,registered nurse,i7,i,41,b,e
+e41bp,260,executioner_LAUGHING_WITH_registered_nurse_IB2P,executioner,i28,laughing with,b6,registered nurse,i7,i,41,b,p
+e41ba,261,executioner_LAUGHING_WITH_registered_nurse_IB3A,executioner,i28,laughing with,b6,registered nurse,i7,i,41,b,a
+e41oe,481,executioner_laughing_with_REGISTERED_NURSE_IO1E,executioner,i28,laughing with,b6,registered nurse,i7,i,41,o,e
+e41op,482,executioner_laughing_with_REGISTERED_NURSE_IO2P,executioner,i28,laughing with,b6,registered nurse,i7,i,41,o,p
+e41oa,483,executioner_laughing_with_REGISTERED_NURSE_IO3A,executioner,i28,laughing with,b6,registered nurse,i7,i,41,o,a
+e42ae,739,GANGSTER_chewing_out_priest_IA1E,gangster,i33,chewing out,b8,priest,i2,i,42,a,e
+e42ap,740,GANGSTER_chewing_out_priest_IA2P,gangster,i33,chewing out,b8,priest,i2,i,42,a,p
+e42aa,741,GANGSTER_chewing_out_priest_IA3A,gangster,i33,chewing out,b8,priest,i2,i,42,a,a
+e42be,961,gangster_CHEWING_OUT_priest_IB1E,gangster,i33,chewing out,b8,priest,i2,i,42,b,e
+e42bp,962,gangster_CHEWING_OUT_priest_IB2P,gangster,i33,chewing out,b8,priest,i2,i,42,b,p
+e42ba,963,gangster_CHEWING_OUT_priest_IB3A,gangster,i33,chewing out,b8,priest,i2,i,42,b,a
+e42oe,1183,gangster_chewing_out_PRIEST_IO1E,gangster,i33,chewing out,b8,priest,i2,i,42,o,e
+e42op,1184,gangster_chewing_out_PRIEST_IO2P,gangster,i33,chewing out,b8,priest,i2,i,42,o,p
+e42oa,1185,gangster_chewing_out_PRIEST_IO3A,gangster,i33,chewing out,b8,priest,i2,i,42,o,a
+e43oe,76,gangster_comforting_GUNMAN_IO1E,gangster,i33,comforting,b14,gunman,i38,i,43,o,e
+e43op,77,gangster_comforting_GUNMAN_IO2P,gangster,i33,comforting,b14,gunman,i38,i,43,o,p
+e43oa,78,gangster_comforting_GUNMAN_IO3A,gangster,i33,comforting,b14,gunman,i38,i,43,o,a
+e43ae,1405,GANGSTER_comforting_gunman_IA1E,gangster,i33,comforting,b14,gunman,i38,i,43,a,e
+e43ap,1406,GANGSTER_comforting_gunman_IA2P,gangster,i33,comforting,b14,gunman,i38,i,43,a,p
+e43aa,1407,GANGSTER_comforting_gunman_IA3A,gangster,i33,comforting,b14,gunman,i38,i,43,a,a
+e43be,1627,gangster_COMFORTING_gunman_IB1E,gangster,i33,comforting,b14,gunman,i38,i,43,b,e
+e43bp,1628,gangster_COMFORTING_gunman_IB2P,gangster,i33,comforting,b14,gunman,i38,i,43,b,p
+e43ba,1629,gangster_COMFORTING_gunman_IB3A,gangster,i33,comforting,b14,gunman,i38,i,43,b,a
+e44ae,325,GANGSTER_deprecating_gunman_IA1E,gangster,i33,deprecating,b26,gunman,i38,i,44,a,e
+e44ap,326,GANGSTER_deprecating_gunman_IA2P,gangster,i33,deprecating,b26,gunman,i38,i,44,a,p
+e44aa,327,GANGSTER_deprecating_gunman_IA3A,gangster,i33,deprecating,b26,gunman,i38,i,44,a,a
+e44be,547,gangster_DEPRECATING_gunman_IB1E,gangster,i33,deprecating,b26,gunman,i38,i,44,b,e
+e44bp,548,gangster_DEPRECATING_gunman_IB2P,gangster,i33,deprecating,b26,gunman,i38,i,44,b,p
+e44ba,549,gangster_DEPRECATING_gunman_IB3A,gangster,i33,deprecating,b26,gunman,i38,i,44,b,a
+e44oe,769,gangster_deprecating_GUNMAN_IO1E,gangster,i33,deprecating,b26,gunman,i38,i,44,o,e
+e44op,770,gangster_deprecating_GUNMAN_IO2P,gangster,i33,deprecating,b26,gunman,i38,i,44,o,p
+e44oa,771,gangster_deprecating_GUNMAN_IO3A,gangster,i33,deprecating,b26,gunman,i38,i,44,o,a
+e45ae,298,GANGSTER_praying_with_priest_IA1E,gangster,i33,praying with,b23,priest,i2,i,45,a,e
+e45ap,299,GANGSTER_praying_with_priest_IA2P,gangster,i33,praying with,b23,priest,i2,i,45,a,p
+e45aa,300,GANGSTER_praying_with_priest_IA3A,gangster,i33,praying with,b23,priest,i2,i,45,a,a
+e45be,520,gangster_PRAYING_WITH_priest_IB1E,gangster,i33,praying with,b23,priest,i2,i,45,b,e
+e45bp,521,gangster_PRAYING_WITH_priest_IB2P,gangster,i33,praying with,b23,priest,i2,i,45,b,p
+e45ba,522,gangster_PRAYING_WITH_priest_IB3A,gangster,i33,praying with,b23,priest,i2,i,45,b,a
+e45oe,742,gangster_praying_with_PRIEST_IO1E,gangster,i33,praying with,b23,priest,i2,i,45,o,e
+e45op,743,gangster_praying_with_PRIEST_IO2P,gangster,i33,praying with,b23,priest,i2,i,45,o,p
+e45oa,744,gangster_praying_with_PRIEST_IO3A,gangster,i33,praying with,b23,priest,i2,i,45,o,a
+e46ae,316,GANGSTER_scoffing_at_priest_IA1E,gangster,i33,scoffing at,b37,priest,i2,i,46,a,e
+e46ap,317,GANGSTER_scoffing_at_priest_IA2P,gangster,i33,scoffing at,b37,priest,i2,i,46,a,p
+e46aa,318,GANGSTER_scoffing_at_priest_IA3A,gangster,i33,scoffing at,b37,priest,i2,i,46,a,a
+e46be,538,gangster_SCOFFING_AT_priest_IB1E,gangster,i33,scoffing at,b37,priest,i2,i,46,b,e
+e46bp,539,gangster_SCOFFING_AT_priest_IB2P,gangster,i33,scoffing at,b37,priest,i2,i,46,b,p
+e46ba,540,gangster_SCOFFING_AT_priest_IB3A,gangster,i33,scoffing at,b37,priest,i2,i,46,b,a
+e46oe,760,gangster_scoffing_at_PRIEST_IO1E,gangster,i33,scoffing at,b37,priest,i2,i,46,o,e
+e46op,761,gangster_scoffing_at_PRIEST_IO2P,gangster,i33,scoffing at,b37,priest,i2,i,46,o,p
+e46oa,762,gangster_scoffing_at_PRIEST_IO3A,gangster,i33,scoffing at,b37,priest,i2,i,46,o,a
+e47be,79,genius_CHEWING_OUT_scientist_IB1E,genius,i25,chewing out,b8,scientist,i8,i,47,b,e
+e47bp,80,genius_CHEWING_OUT_scientist_IB2P,genius,i25,chewing out,b8,scientist,i8,i,47,b,p
+e47ba,81,genius_CHEWING_OUT_scientist_IB3A,genius,i25,chewing out,b8,scientist,i8,i,47,b,a
+e47oe,301,genius_chewing_out_SCIENTIST_IO1E,genius,i25,chewing out,b8,scientist,i8,i,47,o,e
+e47op,302,genius_chewing_out_SCIENTIST_IO2P,genius,i25,chewing out,b8,scientist,i8,i,47,o,p
+e47oa,303,genius_chewing_out_SCIENTIST_IO3A,genius,i25,chewing out,b8,scientist,i8,i,47,o,a
+e47ae,1630,GENIUS_chewing_out_scientist_IA1E,genius,i25,chewing out,b8,scientist,i8,i,47,a,e
+e47ap,1631,GENIUS_chewing_out_scientist_IA2P,genius,i25,chewing out,b8,scientist,i8,i,47,a,p
+e47aa,1632,GENIUS_chewing_out_scientist_IA3A,genius,i25,chewing out,b8,scientist,i8,i,47,a,a
+e48ae,550,GENIUS_scoffing_at_youngster_IA1E,genius,i25,scoffing at,b37,youngster,i32,i,48,a,e
+e48ap,551,GENIUS_scoffing_at_youngster_IA2P,genius,i25,scoffing at,b37,youngster,i32,i,48,a,p
+e48aa,552,GENIUS_scoffing_at_youngster_IA3A,genius,i25,scoffing at,b37,youngster,i32,i,48,a,a
+e48be,772,genius_SCOFFING_AT_youngster_IB1E,genius,i25,scoffing at,b37,youngster,i32,i,48,b,e
+e48bp,773,genius_SCOFFING_AT_youngster_IB2P,genius,i25,scoffing at,b37,youngster,i32,i,48,b,p
+e48ba,774,genius_SCOFFING_AT_youngster_IB3A,genius,i25,scoffing at,b37,youngster,i32,i,48,b,a
+e48oe,994,genius_scoffing_at_YOUNGSTER_IO1E,genius,i25,scoffing at,b37,youngster,i32,i,48,o,e
+e48op,995,genius_scoffing_at_YOUNGSTER_IO2P,genius,i25,scoffing at,b37,youngster,i32,i,48,o,p
+e48oa,996,genius_scoffing_at_YOUNGSTER_IO3A,genius,i25,scoffing at,b37,youngster,i32,i,48,o,a
+e49ae,928,GOSSIP_entertaining_athlete_IA1E,gossip,i11,entertaining,b33,athlete,i1,i,49,a,e
+e49ap,929,GOSSIP_entertaining_athlete_IA2P,gossip,i11,entertaining,b33,athlete,i1,i,49,a,p
+e49aa,930,GOSSIP_entertaining_athlete_IA3A,gossip,i11,entertaining,b33,athlete,i1,i,49,a,a
+e49be,1150,gossip_ENTERTAINING_athlete_IB1E,gossip,i11,entertaining,b33,athlete,i1,i,49,b,e
+e49bp,1151,gossip_ENTERTAINING_athlete_IB2P,gossip,i11,entertaining,b33,athlete,i1,i,49,b,p
+e49ba,1152,gossip_ENTERTAINING_athlete_IB3A,gossip,i11,entertaining,b33,athlete,i1,i,49,b,a
+e49oe,1372,gossip_entertaining_ATHLETE_IO1E,gossip,i11,entertaining,b33,athlete,i1,i,49,o,e
+e49op,1373,gossip_entertaining_ATHLETE_IO2P,gossip,i11,entertaining,b33,athlete,i1,i,49,o,p
+e49oa,1374,gossip_entertaining_ATHLETE_IO3A,gossip,i11,entertaining,b33,athlete,i1,i,49,o,a
+e50ae,514,GOSSIP_interrupting_divorcé_IA1E,gossip,i11,interrupting,b13,divorcé,i16,i,50,a,e
+e50ap,515,GOSSIP_interrupting_divorcé_IA2P,gossip,i11,interrupting,b13,divorcé,i16,i,50,a,p
+e50aa,516,GOSSIP_interrupting_divorcé_IA3A,gossip,i11,interrupting,b13,divorcé,i16,i,50,a,a
+e50be,736,gossip_INTERRUPTING_divorcé_IB1E,gossip,i11,interrupting,b13,divorcé,i16,i,50,b,e
+e50bp,737,gossip_INTERRUPTING_divorcé_IB2P,gossip,i11,interrupting,b13,divorcé,i16,i,50,b,p
+e50ba,738,gossip_INTERRUPTING_divorcé_IB3A,gossip,i11,interrupting,b13,divorcé,i16,i,50,b,a
+e50oe,958,gossip_interrupting_DIVORCÉ_IO1E,gossip,i11,interrupting,b13,divorcé,i16,i,50,o,e
+e50op,959,gossip_interrupting_DIVORCÉ_IO2P,gossip,i11,interrupting,b13,divorcé,i16,i,50,o,p
+e50oa,960,gossip_interrupting_DIVORCÉ_IO3A,gossip,i11,interrupting,b13,divorcé,i16,i,50,o,a
+e51be,88,grandparent_CHEWING_OUT_deadbeat_dad_IB1E,grandparent,i31,chewing out,b8,deadbeat dad,i35,i,51,b,e
+e51bp,89,grandparent_CHEWING_OUT_deadbeat_dad_IB2P,grandparent,i31,chewing out,b8,deadbeat dad,i35,i,51,b,p
+e51ba,90,grandparent_CHEWING_OUT_deadbeat_dad_IB3A,grandparent,i31,chewing out,b8,deadbeat dad,i35,i,51,b,a
+e51oe,310,grandparent_chewing_out_DEADBEAT_DAD_IO1E,grandparent,i31,chewing out,b8,deadbeat dad,i35,i,51,o,e
+e51op,311,grandparent_chewing_out_DEADBEAT_DAD_IO2P,grandparent,i31,chewing out,b8,deadbeat dad,i35,i,51,o,p
+e51oa,312,grandparent_chewing_out_DEADBEAT_DAD_IO3A,grandparent,i31,chewing out,b8,deadbeat dad,i35,i,51,o,a
+e51ae,1639,GRANDPARENT_chewing_out_deadbeat_dad_IA1E,grandparent,i31,chewing out,b8,deadbeat dad,i35,i,51,a,e
+e51ap,1640,GRANDPARENT_chewing_out_deadbeat_dad_IA2P,grandparent,i31,chewing out,b8,deadbeat dad,i35,i,51,a,p
+e51aa,1641,GRANDPARENT_chewing_out_deadbeat_dad_IA3A,grandparent,i31,chewing out,b8,deadbeat dad,i35,i,51,a,a
+e52ae,541,GRANDPARENT_deprecating_bully_IA1E,grandparent,i31,deprecating,b26,bully,i27,i,52,a,e
+e52ap,542,GRANDPARENT_deprecating_bully_IA2P,grandparent,i31,deprecating,b26,bully,i27,i,52,a,p
+e52aa,543,GRANDPARENT_deprecating_bully_IA3A,grandparent,i31,deprecating,b26,bully,i27,i,52,a,a
+e52be,763,grandparent_DEPRECATING_bully_IB1E,grandparent,i31,deprecating,b26,bully,i27,i,52,b,e
+e52bp,764,grandparent_DEPRECATING_bully_IB2P,grandparent,i31,deprecating,b26,bully,i27,i,52,b,p
+e52ba,765,grandparent_DEPRECATING_bully_IB3A,grandparent,i31,deprecating,b26,bully,i27,i,52,b,a
+e52oe,985,grandparent_deprecating_BULLY_IO1E,grandparent,i31,deprecating,b26,bully,i27,i,52,o,e
+e52op,986,grandparent_deprecating_BULLY_IO2P,grandparent,i31,deprecating,b26,bully,i27,i,52,o,p
+e52oa,987,grandparent_deprecating_BULLY_IO3A,grandparent,i31,deprecating,b26,bully,i27,i,52,o,a
+e53ae,982,GRANDPARENT_escaping_gunman_IA1E,grandparent,i31,escaping,b7,gunman,i38,i,53,a,e
+e53ap,983,GRANDPARENT_escaping_gunman_IA2P,grandparent,i31,escaping,b7,gunman,i38,i,53,a,p
+e53aa,984,GRANDPARENT_escaping_gunman_IA3A,grandparent,i31,escaping,b7,gunman,i38,i,53,a,a
+e53be,1204,grandparent_ESCAPING_gunman_IB1E,grandparent,i31,escaping,b7,gunman,i38,i,53,b,e
+e53bp,1205,grandparent_ESCAPING_gunman_IB2P,grandparent,i31,escaping,b7,gunman,i38,i,53,b,p
+e53ba,1206,grandparent_ESCAPING_gunman_IB3A,grandparent,i31,escaping,b7,gunman,i38,i,53,b,a
+e53oe,1426,grandparent_escaping_GUNMAN_IO1E,grandparent,i31,escaping,b7,gunman,i38,i,53,o,e
+e53op,1427,grandparent_escaping_GUNMAN_IO2P,grandparent,i31,escaping,b7,gunman,i38,i,53,o,p
+e53oa,1428,grandparent_escaping_GUNMAN_IO3A,grandparent,i31,escaping,b7,gunman,i38,i,53,o,a
+e54ae,973,GRANDPARENT_scolding_champion_IA1E,grandparent,i31,scolding,b12,champion,i24,i,54,a,e
+e54ap,974,GRANDPARENT_scolding_champion_IA2P,grandparent,i31,scolding,b12,champion,i24,i,54,a,p
+e54aa,975,GRANDPARENT_scolding_champion_IA3A,grandparent,i31,scolding,b12,champion,i24,i,54,a,a
+e54be,1195,grandparent_SCOLDING_champion_IB1E,grandparent,i31,scolding,b12,champion,i24,i,54,b,e
+e54bp,1196,grandparent_SCOLDING_champion_IB2P,grandparent,i31,scolding,b12,champion,i24,i,54,b,p
+e54ba,1197,grandparent_SCOLDING_champion_IB3A,grandparent,i31,scolding,b12,champion,i24,i,54,b,a
+e54oe,1417,grandparent_scolding_CHAMPION_IO1E,grandparent,i31,scolding,b12,champion,i24,i,54,o,e
+e54op,1418,grandparent_scolding_CHAMPION_IO2P,grandparent,i31,scolding,b12,champion,i24,i,54,o,p
+e54oa,1419,grandparent_scolding_CHAMPION_IO3A,grandparent,i31,scolding,b12,champion,i24,i,54,o,a
+e55ae,91,GUNMAN_chatting_up_gangster_IA1E,gunman,i38,chatting up,b2,gangster,i33,i,55,a,e
+e55ap,92,GUNMAN_chatting_up_gangster_IA2P,gunman,i38,chatting up,b2,gangster,i33,i,55,a,p
+e55aa,93,GUNMAN_chatting_up_gangster_IA3A,gunman,i38,chatting up,b2,gangster,i33,i,55,a,a
+e55be,313,gunman_CHATTING_UP_gangster_IB1E,gunman,i38,chatting up,b2,gangster,i33,i,55,b,e
+e55bp,314,gunman_CHATTING_UP_gangster_IB2P,gunman,i38,chatting up,b2,gangster,i33,i,55,b,p
+e55ba,315,gunman_CHATTING_UP_gangster_IB3A,gunman,i38,chatting up,b2,gangster,i33,i,55,b,a
+e55oe,535,gunman_chatting_up_GANGSTER_IO1E,gunman,i38,chatting up,b2,gangster,i33,i,55,o,e
+e55op,536,gunman_chatting_up_GANGSTER_IO2P,gunman,i38,chatting up,b2,gangster,i33,i,55,o,p
+e55oa,537,gunman_chatting_up_GANGSTER_IO3A,gunman,i38,chatting up,b2,gangster,i33,i,55,o,a
+e56ae,28,HEROINE_confining_serial_murderer_IA1E,heroine,i13,confining,b20,serial murderer,i39,i,56,a,e
+e56ap,29,HEROINE_confining_serial_murderer_IA2P,heroine,i13,confining,b20,serial murderer,i39,i,56,a,p
+e56aa,30,HEROINE_confining_serial_murderer_IA3A,heroine,i13,confining,b20,serial murderer,i39,i,56,a,a
+e56be,250,heroine_CONFINING_serial_murderer_IB1E,heroine,i13,confining,b20,serial murderer,i39,i,56,b,e
+e56bp,251,heroine_CONFINING_serial_murderer_IB2P,heroine,i13,confining,b20,serial murderer,i39,i,56,b,p
+e56ba,252,heroine_CONFINING_serial_murderer_IB3A,heroine,i13,confining,b20,serial murderer,i39,i,56,b,a
+e56oe,472,heroine_confining_SERIAL_MURDERER_IO1E,heroine,i13,confining,b20,serial murderer,i39,i,56,o,e
+e56op,473,heroine_confining_SERIAL_MURDERER_IO2P,heroine,i13,confining,b20,serial murderer,i39,i,56,o,p
+e56oa,474,heroine_confining_SERIAL_MURDERER_IO3A,heroine,i13,confining,b20,serial murderer,i39,i,56,o,a
+e57oe,13,heroine_following_MURDERER_IO1E,heroine,i13,following,b24,murderer,i34,i,57,o,e
+e57op,14,heroine_following_MURDERER_IO2P,heroine,i13,following,b24,murderer,i34,i,57,o,p
+e57oa,15,heroine_following_MURDERER_IO3A,heroine,i13,following,b24,murderer,i34,i,57,o,a
+e57ae,1342,HEROINE_following_murderer_IA1E,heroine,i13,following,b24,murderer,i34,i,57,a,e
+e57ap,1343,HEROINE_following_murderer_IA2P,heroine,i13,following,b24,murderer,i34,i,57,a,p
+e57aa,1344,HEROINE_following_murderer_IA3A,heroine,i13,following,b24,murderer,i34,i,57,a,a
+e57be,1564,heroine_FOLLOWING_murderer_IB1E,heroine,i13,following,b24,murderer,i34,i,57,b,e
+e57bp,1565,heroine_FOLLOWING_murderer_IB2P,heroine,i13,following,b24,murderer,i34,i,57,b,p
+e57ba,1566,heroine_FOLLOWING_murderer_IB3A,heroine,i13,following,b24,murderer,i34,i,57,b,a
+e58ae,1162,HOTHEAD_following_lunatic_IA1E,hothead,i17,following,b24,lunatic,i23,i,58,a,e
+e58ap,1163,HOTHEAD_following_lunatic_IA2P,hothead,i17,following,b24,lunatic,i23,i,58,a,p
+e58aa,1164,HOTHEAD_following_lunatic_IA3A,hothead,i17,following,b24,lunatic,i23,i,58,a,a
+e58be,1384,hothead_FOLLOWING_lunatic_IB1E,hothead,i17,following,b24,lunatic,i23,i,58,b,e
+e58bp,1385,hothead_FOLLOWING_lunatic_IB2P,hothead,i17,following,b24,lunatic,i23,i,58,b,p
+e58ba,1386,hothead_FOLLOWING_lunatic_IB3A,hothead,i17,following,b24,lunatic,i23,i,58,b,a
+e58oe,1606,hothead_following_LUNATIC_IO1E,hothead,i17,following,b24,lunatic,i23,i,58,o,e
+e58op,1607,hothead_following_LUNATIC_IO2P,hothead,i17,following,b24,lunatic,i23,i,58,o,p
+e58oa,1608,hothead_following_LUNATIC_IO3A,hothead,i17,following,b24,lunatic,i23,i,58,o,a
+e59ae,496,HOTHEAD_obeying_serial_murderer_IA1E,hothead,i17,obeying,b30,serial murderer,i39,i,59,a,e
+e59ap,497,HOTHEAD_obeying_serial_murderer_IA2P,hothead,i17,obeying,b30,serial murderer,i39,i,59,a,p
+e59aa,498,HOTHEAD_obeying_serial_murderer_IA3A,hothead,i17,obeying,b30,serial murderer,i39,i,59,a,a
+e59be,718,hothead_OBEYING_serial_murderer_IB1E,hothead,i17,obeying,b30,serial murderer,i39,i,59,b,e
+e59bp,719,hothead_OBEYING_serial_murderer_IB2P,hothead,i17,obeying,b30,serial murderer,i39,i,59,b,p
+e59ba,720,hothead_OBEYING_serial_murderer_IB3A,hothead,i17,obeying,b30,serial murderer,i39,i,59,b,a
+e59oe,940,hothead_obeying_SERIAL_MURDERER_IO1E,hothead,i17,obeying,b30,serial murderer,i39,i,59,o,e
+e59op,941,hothead_obeying_SERIAL_MURDERER_IO2P,hothead,i17,obeying,b30,serial murderer,i39,i,59,o,p
+e59oa,942,hothead_obeying_SERIAL_MURDERER_IO3A,hothead,i17,obeying,b30,serial murderer,i39,i,59,o,a
+e60be,16,innocent_ENTERTAINING_psychotic_IB1E,innocent,i43,entertaining,b33,psychotic,i29,i,60,b,e
+e60bp,17,innocent_ENTERTAINING_psychotic_IB2P,innocent,i43,entertaining,b33,psychotic,i29,i,60,b,p
+e60ba,18,innocent_ENTERTAINING_psychotic_IB3A,innocent,i43,entertaining,b33,psychotic,i29,i,60,b,a
+e60oe,238,innocent_entertaining_PSYCHOTIC_IO1E,innocent,i43,entertaining,b33,psychotic,i29,i,60,o,e
+e60op,239,innocent_entertaining_PSYCHOTIC_IO2P,innocent,i43,entertaining,b33,psychotic,i29,i,60,o,p
+e60oa,240,innocent_entertaining_PSYCHOTIC_IO3A,innocent,i43,entertaining,b33,psychotic,i29,i,60,o,a
+e60ae,1567,INNOCENT_entertaining_psychotic_IA1E,innocent,i43,entertaining,b33,psychotic,i29,i,60,a,e
+e60ap,1568,INNOCENT_entertaining_psychotic_IA2P,innocent,i43,entertaining,b33,psychotic,i29,i,60,a,p
+e60aa,1569,INNOCENT_entertaining_psychotic_IA3A,innocent,i43,entertaining,b33,psychotic,i29,i,60,a,a
+e61ae,478,INNOCENT_pinching_murderer_IA1E,innocent,i43,pinching,b17,murderer,i34,i,61,a,e
+e61ap,479,INNOCENT_pinching_murderer_IA2P,innocent,i43,pinching,b17,murderer,i34,i,61,a,p
+e61aa,480,INNOCENT_pinching_murderer_IA3A,innocent,i43,pinching,b17,murderer,i34,i,61,a,a
+e61be,700,innocent_PINCHING_murderer_IB1E,innocent,i43,pinching,b17,murderer,i34,i,61,b,e
+e61bp,701,innocent_PINCHING_murderer_IB2P,innocent,i43,pinching,b17,murderer,i34,i,61,b,p
+e61ba,702,innocent_PINCHING_murderer_IB3A,innocent,i43,pinching,b17,murderer,i34,i,61,b,a
+e61oe,922,innocent_pinching_MURDERER_IO1E,innocent,i43,pinching,b17,murderer,i34,i,61,o,e
+e61op,923,innocent_pinching_MURDERER_IO2P,innocent,i43,pinching,b17,murderer,i34,i,61,o,p
+e61oa,924,innocent_pinching_MURDERER_IO3A,innocent,i43,pinching,b17,murderer,i34,i,61,o,a
+e62be,7,interviewee_SURPRISING_old_timer_IB1E,interviewee,i3,surprising,b10,old timer,i9,i,62,b,e
+e62bp,8,interviewee_SURPRISING_old_timer_IB2P,interviewee,i3,surprising,b10,old timer,i9,i,62,b,p
+e62ba,9,interviewee_SURPRISING_old_timer_IB3A,interviewee,i3,surprising,b10,old timer,i9,i,62,b,a
+e62oe,229,interviewee_surprising_OLD_TIMER_IO1E,interviewee,i3,surprising,b10,old timer,i9,i,62,o,e
+e62op,230,interviewee_surprising_OLD_TIMER_IO2P,interviewee,i3,surprising,b10,old timer,i9,i,62,o,p
+e62oa,231,interviewee_surprising_OLD_TIMER_IO3A,interviewee,i3,surprising,b10,old timer,i9,i,62,o,a
+e62ae,1558,INTERVIEWEE_surprising_old_timer_IA1E,interviewee,i3,surprising,b10,old timer,i9,i,62,a,e
+e62ap,1559,INTERVIEWEE_surprising_old_timer_IA2P,interviewee,i3,surprising,b10,old timer,i9,i,62,a,p
+e62aa,1560,INTERVIEWEE_surprising_old_timer_IA3A,interviewee,i3,surprising,b10,old timer,i9,i,62,a,a
+e63ae,100,LADY_KILLER_lusting_for_child_IA1E,lady killer,i44,lusting for,b15,child,i14,i,63,a,e
+e63ap,101,LADY_KILLER_lusting_for_child_IA2P,lady killer,i44,lusting for,b15,child,i14,i,63,a,p
+e63aa,102,LADY_KILLER_lusting_for_child_IA3A,lady killer,i44,lusting for,b15,child,i14,i,63,a,a
+e63be,322,lady_killer_LUSTING_FOR_child_IB1E,lady killer,i44,lusting for,b15,child,i14,i,63,b,e
+e63bp,323,lady_killer_LUSTING_FOR_child_IB2P,lady killer,i44,lusting for,b15,child,i14,i,63,b,p
+e63ba,324,lady_killer_LUSTING_FOR_child_IB3A,lady killer,i44,lusting for,b15,child,i14,i,63,b,a
+e63oe,544,lady_killer_lusting_for_CHILD_IO1E,lady killer,i44,lusting for,b15,child,i14,i,63,o,e
+e63op,545,lady_killer_lusting_for_CHILD_IO2P,lady killer,i44,lusting for,b15,child,i14,i,63,o,p
+e63oa,546,lady_killer_lusting_for_CHILD_IO3A,lady killer,i44,lusting for,b15,child,i14,i,63,o,a
+e64oe,85,lady_killer_snuggling_TEENAGER_IO1E,lady killer,i44,snuggling,b29,teenager,i20,i,64,o,e
+e64op,86,lady_killer_snuggling_TEENAGER_IO2P,lady killer,i44,snuggling,b29,teenager,i20,i,64,o,p
+e64oa,87,lady_killer_snuggling_TEENAGER_IO3A,lady killer,i44,snuggling,b29,teenager,i20,i,64,o,a
+e64ae,1414,LADY_KILLER_snuggling_teenager_IA1E,lady killer,i44,snuggling,b29,teenager,i20,i,64,a,e
+e64ap,1415,LADY_KILLER_snuggling_teenager_IA2P,lady killer,i44,snuggling,b29,teenager,i20,i,64,a,p
+e64aa,1416,LADY_KILLER_snuggling_teenager_IA3A,lady killer,i44,snuggling,b29,teenager,i20,i,64,a,a
+e64be,1636,lady_killer_SNUGGLING_teenager_IB1E,lady killer,i44,snuggling,b29,teenager,i20,i,64,b,e
+e64bp,1637,lady_killer_SNUGGLING_teenager_IB2P,lady killer,i44,snuggling,b29,teenager,i20,i,64,b,p
+e64ba,1638,lady_killer_SNUGGLING_teenager_IB3A,lady killer,i44,snuggling,b29,teenager,i20,i,64,b,a
+e65ae,1234,LOAFER_comforting_unemployed_person_IA1E,loafer,i6,comforting,b14,unemployed person,i12,i,65,a,e
+e65ap,1235,LOAFER_comforting_unemployed_person_IA2P,loafer,i6,comforting,b14,unemployed person,i12,i,65,a,p
+e65aa,1236,LOAFER_comforting_unemployed_person_IA3A,loafer,i6,comforting,b14,unemployed person,i12,i,65,a,a
+e65be,1456,loafer_COMFORTING_unemployed_person_IB1E,loafer,i6,comforting,b14,unemployed person,i12,i,65,b,e
+e65bp,1457,loafer_COMFORTING_unemployed_person_IB2P,loafer,i6,comforting,b14,unemployed person,i12,i,65,b,p
+e65ba,1458,loafer_COMFORTING_unemployed_person_IB3A,loafer,i6,comforting,b14,unemployed person,i12,i,65,b,a
+e65oe,1678,loafer_comforting_UNEMPLOYED_PERSON_IO1E,loafer,i6,comforting,b14,unemployed person,i12,i,65,o,e
+e65op,1679,loafer_comforting_UNEMPLOYED_PERSON_IO2P,loafer,i6,comforting,b14,unemployed person,i12,i,65,o,p
+e65oa,1680,loafer_comforting_UNEMPLOYED_PERSON_IO3A,loafer,i6,comforting,b14,unemployed person,i12,i,65,o,a
+e66be,133,loafer_ESCAPING_priest_IB1E,loafer,i6,escaping,b7,priest,i2,i,66,b,e
+e66bp,134,loafer_ESCAPING_priest_IB2P,loafer,i6,escaping,b7,priest,i2,i,66,b,p
+e66ba,135,loafer_ESCAPING_priest_IB3A,loafer,i6,escaping,b7,priest,i2,i,66,b,a
+e66oe,355,loafer_escaping_PRIEST_IO1E,loafer,i6,escaping,b7,priest,i2,i,66,o,e
+e66op,356,loafer_escaping_PRIEST_IO2P,loafer,i6,escaping,b7,priest,i2,i,66,o,p
+e66oa,357,loafer_escaping_PRIEST_IO3A,loafer,i6,escaping,b7,priest,i2,i,66,o,a
+e66ae,1684,LOAFER_escaping_priest_IA1E,loafer,i6,escaping,b7,priest,i2,i,66,a,e
+e66ap,1685,LOAFER_escaping_priest_IA2P,loafer,i6,escaping,b7,priest,i2,i,66,a,p
+e66aa,1686,LOAFER_escaping_priest_IA3A,loafer,i6,escaping,b7,priest,i2,i,66,a,a
+e67ae,586,LOAFER_ignoring_toddler_IA1E,loafer,i6,ignoring,b32,toddler,i26,i,67,a,e
+e67ap,587,LOAFER_ignoring_toddler_IA2P,loafer,i6,ignoring,b32,toddler,i26,i,67,a,p
+e67aa,588,LOAFER_ignoring_toddler_IA3A,loafer,i6,ignoring,b32,toddler,i26,i,67,a,a
+e67be,808,loafer_IGNORING_toddler_IB1E,loafer,i6,ignoring,b32,toddler,i26,i,67,b,e
+e67bp,809,loafer_IGNORING_toddler_IB2P,loafer,i6,ignoring,b32,toddler,i26,i,67,b,p
+e67ba,810,loafer_IGNORING_toddler_IB3A,loafer,i6,ignoring,b32,toddler,i26,i,67,b,a
+e67oe,1030,loafer_ignoring_TODDLER_IO1E,loafer,i6,ignoring,b32,toddler,i26,i,67,o,e
+e67op,1031,loafer_ignoring_TODDLER_IO2P,loafer,i6,ignoring,b32,toddler,i26,i,67,o,p
+e67oa,1032,loafer_ignoring_TODDLER_IO3A,loafer,i6,ignoring,b32,toddler,i26,i,67,o,a
+e68be,43,lunatic_COACHING_applicant_IB1E,lunatic,i23,coaching,b22,applicant,i37,i,68,b,e
+e68bp,44,lunatic_COACHING_applicant_IB2P,lunatic,i23,coaching,b22,applicant,i37,i,68,b,p
+e68ba,45,lunatic_COACHING_applicant_IB3A,lunatic,i23,coaching,b22,applicant,i37,i,68,b,a
+e68oe,265,lunatic_coaching_APPLICANT_IO1E,lunatic,i23,coaching,b22,applicant,i37,i,68,o,e
+e68op,266,lunatic_coaching_APPLICANT_IO2P,lunatic,i23,coaching,b22,applicant,i37,i,68,o,p
+e68oa,267,lunatic_coaching_APPLICANT_IO3A,lunatic,i23,coaching,b22,applicant,i37,i,68,o,a
+e68ae,1594,LUNATIC_coaching_applicant_IA1E,lunatic,i23,coaching,b22,applicant,i37,i,68,a,e
+e68ap,1595,LUNATIC_coaching_applicant_IA2P,lunatic,i23,coaching,b22,applicant,i37,i,68,a,p
+e68aa,1596,LUNATIC_coaching_applicant_IA3A,lunatic,i23,coaching,b22,applicant,i37,i,68,a,a
+e69ae,1171,LUNATIC_pinching_patient_IA1E,lunatic,i23,pinching,b17,patient,i15,i,69,a,e
+e69ap,1172,LUNATIC_pinching_patient_IA2P,lunatic,i23,pinching,b17,patient,i15,i,69,a,p
+e69aa,1173,LUNATIC_pinching_patient_IA3A,lunatic,i23,pinching,b17,patient,i15,i,69,a,a
+e69be,1393,lunatic_PINCHING_patient_IB1E,lunatic,i23,pinching,b17,patient,i15,i,69,b,e
+e69bp,1394,lunatic_PINCHING_patient_IB2P,lunatic,i23,pinching,b17,patient,i15,i,69,b,p
+e69ba,1395,lunatic_PINCHING_patient_IB3A,lunatic,i23,pinching,b17,patient,i15,i,69,b,a
+e69oe,1615,lunatic_pinching_PATIENT_IO1E,lunatic,i23,pinching,b17,patient,i15,i,69,o,e
+e69op,1616,lunatic_pinching_PATIENT_IO2P,lunatic,i23,pinching,b17,patient,i15,i,69,o,p
+e69oa,1617,lunatic_pinching_PATIENT_IO3A,lunatic,i23,pinching,b17,patient,i15,i,69,o,a
+e70oe,67,murderer_babbling_to_SERIAL_MURDERER_IO1E,murderer,i34,babbling to,b36,serial murderer,i39,i,70,o,e
+e70op,68,murderer_babbling_to_SERIAL_MURDERER_IO2P,murderer,i34,babbling to,b36,serial murderer,i39,i,70,o,p
+e70oa,69,murderer_babbling_to_SERIAL_MURDERER_IO3A,murderer,i34,babbling to,b36,serial murderer,i39,i,70,o,a
+e70ae,1396,MURDERER_babbling_to_serial_murderer_IA1E,murderer,i34,babbling to,b36,serial murderer,i39,i,70,a,e
+e70ap,1397,MURDERER_babbling_to_serial_murderer_IA2P,murderer,i34,babbling to,b36,serial murderer,i39,i,70,a,p
+e70aa,1398,MURDERER_babbling_to_serial_murderer_IA3A,murderer,i34,babbling to,b36,serial murderer,i39,i,70,a,a
+e70be,1618,murderer_BABBLING_TO_serial_murderer_IB1E,murderer,i34,babbling to,b36,serial murderer,i39,i,70,b,e
+e70bp,1619,murderer_BABBLING_TO_serial_murderer_IB2P,murderer,i34,babbling to,b36,serial murderer,i39,i,70,b,p
+e70ba,1620,murderer_BABBLING_TO_serial_murderer_IB3A,murderer,i34,babbling to,b36,serial murderer,i39,i,70,b,a
+e71ae,721,MURDERER_confining_innocent_IA1E,murderer,i34,confining,b20,innocent,i43,i,71,a,e
+e71ap,722,MURDERER_confining_innocent_IA2P,murderer,i34,confining,b20,innocent,i43,i,71,a,p
+e71aa,723,MURDERER_confining_innocent_IA3A,murderer,i34,confining,b20,innocent,i43,i,71,a,a
+e71be,943,murderer_CONFINING_innocent_IB1E,murderer,i34,confining,b20,innocent,i43,i,71,b,e
+e71bp,944,murderer_CONFINING_innocent_IB2P,murderer,i34,confining,b20,innocent,i43,i,71,b,p
+e71ba,945,murderer_CONFINING_innocent_IB3A,murderer,i34,confining,b20,innocent,i43,i,71,b,a
+e71oe,1165,murderer_confining_INNOCENT_IO1E,murderer,i34,confining,b20,innocent,i43,i,71,o,e
+e71op,1166,murderer_confining_INNOCENT_IO2P,murderer,i34,confining,b20,innocent,i43,i,71,o,p
+e71oa,1167,murderer_confining_INNOCENT_IO3A,murderer,i34,confining,b20,innocent,i43,i,71,o,a
+e72ae,280,MURDERER_interrupting_interviewee_IA1E,murderer,i34,interrupting,b13,interviewee,i3,i,72,a,e
+e72ap,281,MURDERER_interrupting_interviewee_IA2P,murderer,i34,interrupting,b13,interviewee,i3,i,72,a,p
+e72aa,282,MURDERER_interrupting_interviewee_IA3A,murderer,i34,interrupting,b13,interviewee,i3,i,72,a,a
+e72be,502,murderer_INTERRUPTING_interviewee_IB1E,murderer,i34,interrupting,b13,interviewee,i3,i,72,b,e
+e72bp,503,murderer_INTERRUPTING_interviewee_IB2P,murderer,i34,interrupting,b13,interviewee,i3,i,72,b,p
+e72ba,504,murderer_INTERRUPTING_interviewee_IB3A,murderer,i34,interrupting,b13,interviewee,i3,i,72,b,a
+e72oe,724,murderer_interrupting_INTERVIEWEE_IO1E,murderer,i34,interrupting,b13,interviewee,i3,i,72,o,e
+e72op,725,murderer_interrupting_INTERVIEWEE_IO2P,murderer,i34,interrupting,b13,interviewee,i3,i,72,o,p
+e72oa,726,murderer_interrupting_INTERVIEWEE_IO3A,murderer,i34,interrupting,b13,interviewee,i3,i,72,o,a
+e73ae,64,MURDERER_monitoring_divorcé_IA1E,murderer,i34,monitoring,b25,divorcé,i16,i,73,a,e
+e73ap,65,MURDERER_monitoring_divorcé_IA2P,murderer,i34,monitoring,b25,divorcé,i16,i,73,a,p
+e73aa,66,MURDERER_monitoring_divorcé_IA3A,murderer,i34,monitoring,b25,divorcé,i16,i,73,a,a
+e73be,286,murderer_MONITORING_divorcé_IB1E,murderer,i34,monitoring,b25,divorcé,i16,i,73,b,e
+e73bp,287,murderer_MONITORING_divorcé_IB2P,murderer,i34,monitoring,b25,divorcé,i16,i,73,b,p
+e73ba,288,murderer_MONITORING_divorcé_IB3A,murderer,i34,monitoring,b25,divorcé,i16,i,73,b,a
+e73oe,508,murderer_monitoring_DIVORCÉ_IO1E,murderer,i34,monitoring,b25,divorcé,i16,i,73,o,e
+e73op,509,murderer_monitoring_DIVORCÉ_IO2P,murderer,i34,monitoring,b25,divorcé,i16,i,73,o,p
+e73oa,510,murderer_monitoring_DIVORCÉ_IO3A,murderer,i34,monitoring,b25,divorcé,i16,i,73,o,a
+e74oe,49,murderer_obeying_SERIAL_MURDERER_IO1E,murderer,i34,obeying,b30,serial murderer,i39,i,74,o,e
+e74op,50,murderer_obeying_SERIAL_MURDERER_IO2P,murderer,i34,obeying,b30,serial murderer,i39,i,74,o,p
+e74oa,51,murderer_obeying_SERIAL_MURDERER_IO3A,murderer,i34,obeying,b30,serial murderer,i39,i,74,o,a
+e74ae,1378,MURDERER_obeying_serial_murderer_IA1E,murderer,i34,obeying,b30,serial murderer,i39,i,74,a,e
+e74ap,1379,MURDERER_obeying_serial_murderer_IA2P,murderer,i34,obeying,b30,serial murderer,i39,i,74,a,p
+e74aa,1380,MURDERER_obeying_serial_murderer_IA3A,murderer,i34,obeying,b30,serial murderer,i39,i,74,a,a
+e74be,1600,murderer_OBEYING_serial_murderer_IB1E,murderer,i34,obeying,b30,serial murderer,i39,i,74,b,e
+e74bp,1601,murderer_OBEYING_serial_murderer_IB2P,murderer,i34,obeying,b30,serial murderer,i39,i,74,b,p
+e74ba,1602,murderer_OBEYING_serial_murderer_IB3A,murderer,i34,obeying,b30,serial murderer,i39,i,74,b,a
+e75ae,712,MURDERER_surprising_chatterbox_IA1E,murderer,i34,surprising,b10,chatterbox,i5,i,75,a,e
+e75ap,713,MURDERER_surprising_chatterbox_IA2P,murderer,i34,surprising,b10,chatterbox,i5,i,75,a,p
+e75aa,714,MURDERER_surprising_chatterbox_IA3A,murderer,i34,surprising,b10,chatterbox,i5,i,75,a,a
+e75be,934,murderer_SURPRISING_chatterbox_IB1E,murderer,i34,surprising,b10,chatterbox,i5,i,75,b,e
+e75bp,935,murderer_SURPRISING_chatterbox_IB2P,murderer,i34,surprising,b10,chatterbox,i5,i,75,b,p
+e75ba,936,murderer_SURPRISING_chatterbox_IB3A,murderer,i34,surprising,b10,chatterbox,i5,i,75,b,a
+e75oe,1156,murderer_surprising_CHATTERBOX_IO1E,murderer,i34,surprising,b10,chatterbox,i5,i,75,o,e
+e75op,1157,murderer_surprising_CHATTERBOX_IO2P,murderer,i34,surprising,b10,chatterbox,i5,i,75,o,p
+e75oa,1158,murderer_surprising_CHATTERBOX_IO3A,murderer,i34,surprising,b10,chatterbox,i5,i,75,o,a
+e76ae,262,MURDERER_waiting_on_patient_IA1E,murderer,i34,waiting on,b35,patient,i15,i,76,a,e
+e76ap,263,MURDERER_waiting_on_patient_IA2P,murderer,i34,waiting on,b35,patient,i15,i,76,a,p
+e76aa,264,MURDERER_waiting_on_patient_IA3A,murderer,i34,waiting on,b35,patient,i15,i,76,a,a
+e76be,484,murderer_WAITING_ON_patient_IB1E,murderer,i34,waiting on,b35,patient,i15,i,76,b,e
+e76bp,485,murderer_WAITING_ON_patient_IB2P,murderer,i34,waiting on,b35,patient,i15,i,76,b,p
+e76ba,486,murderer_WAITING_ON_patient_IB3A,murderer,i34,waiting on,b35,patient,i15,i,76,b,a
+e76oe,706,murderer_waiting_on_PATIENT_IO1E,murderer,i34,waiting on,b35,patient,i15,i,76,o,e
+e76op,707,murderer_waiting_on_PATIENT_IO2P,murderer,i34,waiting on,b35,patient,i15,i,76,o,p
+e76oa,708,murderer_waiting_on_PATIENT_IO3A,murderer,i34,waiting on,b35,patient,i15,i,76,o,a
+e77ae,901,OLD_TIMER_laughing_with_executioner_IA1E,old timer,i9,laughing with,b6,executioner,i28,i,77,a,e
+e77ap,902,OLD_TIMER_laughing_with_executioner_IA2P,old timer,i9,laughing with,b6,executioner,i28,i,77,a,p
+e77aa,903,OLD_TIMER_laughing_with_executioner_IA3A,old timer,i9,laughing with,b6,executioner,i28,i,77,a,a
+e77be,1123,old_timer_LAUGHING_WITH_executioner_IB1E,old timer,i9,laughing with,b6,executioner,i28,i,77,b,e
+e77bp,1124,old_timer_LAUGHING_WITH_executioner_IB2P,old timer,i9,laughing with,b6,executioner,i28,i,77,b,p
+e77ba,1125,old_timer_LAUGHING_WITH_executioner_IB3A,old timer,i9,laughing with,b6,executioner,i28,i,77,b,a
+e77oe,1345,old_timer_laughing_with_EXECUTIONER_IO1E,old timer,i9,laughing with,b6,executioner,i28,i,77,o,e
+e77op,1346,old_timer_laughing_with_EXECUTIONER_IO2P,old timer,i9,laughing with,b6,executioner,i28,i,77,o,p
+e77oa,1347,old_timer_laughing_with_EXECUTIONER_IO3A,old timer,i9,laughing with,b6,executioner,i28,i,77,o,a
+e78oe,94,outlaw_ignoring_GUNMAN_IO1E,outlaw,i4,ignoring,b32,gunman,i38,i,78,o,e
+e78op,95,outlaw_ignoring_GUNMAN_IO2P,outlaw,i4,ignoring,b32,gunman,i38,i,78,o,p
+e78oa,96,outlaw_ignoring_GUNMAN_IO3A,outlaw,i4,ignoring,b32,gunman,i38,i,78,o,a
+e78ae,1423,OUTLAW_ignoring_gunman_IA1E,outlaw,i4,ignoring,b32,gunman,i38,i,78,a,e
+e78ap,1424,OUTLAW_ignoring_gunman_IA2P,outlaw,i4,ignoring,b32,gunman,i38,i,78,a,p
+e78aa,1425,OUTLAW_ignoring_gunman_IA3A,outlaw,i4,ignoring,b32,gunman,i38,i,78,a,a
+e78be,1645,outlaw_IGNORING_gunman_IB1E,outlaw,i4,ignoring,b32,gunman,i38,i,78,b,e
+e78bp,1646,outlaw_IGNORING_gunman_IB2P,outlaw,i4,ignoring,b32,gunman,i38,i,78,b,p
+e78ba,1647,outlaw_IGNORING_gunman_IB3A,outlaw,i4,ignoring,b32,gunman,i38,i,78,b,a
+e79ae,73,OUTLAW_slugging_bully_IA1E,outlaw,i4,slugging,b16,bully,i27,i,79,a,e
+e79ap,74,OUTLAW_slugging_bully_IA2P,outlaw,i4,slugging,b16,bully,i27,i,79,a,p
+e79aa,75,OUTLAW_slugging_bully_IA3A,outlaw,i4,slugging,b16,bully,i27,i,79,a,a
+e79be,295,outlaw_SLUGGING_bully_IB1E,outlaw,i4,slugging,b16,bully,i27,i,79,b,e
+e79bp,296,outlaw_SLUGGING_bully_IB2P,outlaw,i4,slugging,b16,bully,i27,i,79,b,p
+e79ba,297,outlaw_SLUGGING_bully_IB3A,outlaw,i4,slugging,b16,bully,i27,i,79,b,a
+e79oe,517,outlaw_slugging_BULLY_IO1E,outlaw,i4,slugging,b16,bully,i27,i,79,o,e
+e79op,518,outlaw_slugging_BULLY_IO2P,outlaw,i4,slugging,b16,bully,i27,i,79,o,p
+e79oa,519,outlaw_slugging_BULLY_IO3A,outlaw,i4,slugging,b16,bully,i27,i,79,o,a
+e80ae,307,OUTLAW_soothing_victim_IA1E,outlaw,i4,soothing,b34,victim,i30,i,80,a,e
+e80ap,308,OUTLAW_soothing_victim_IA2P,outlaw,i4,soothing,b34,victim,i30,i,80,a,p
+e80aa,309,OUTLAW_soothing_victim_IA3A,outlaw,i4,soothing,b34,victim,i30,i,80,a,a
+e80be,529,outlaw_SOOTHING_victim_IB1E,outlaw,i4,soothing,b34,victim,i30,i,80,b,e
+e80bp,530,outlaw_SOOTHING_victim_IB2P,outlaw,i4,soothing,b34,victim,i30,i,80,b,p
+e80ba,531,outlaw_SOOTHING_victim_IB3A,outlaw,i4,soothing,b34,victim,i30,i,80,b,a
+e80oe,751,outlaw_soothing_VICTIM_IO1E,outlaw,i4,soothing,b34,victim,i30,i,80,o,e
+e80op,752,outlaw_soothing_VICTIM_IO2P,outlaw,i4,soothing,b34,victim,i30,i,80,o,p
+e80oa,753,outlaw_soothing_VICTIM_IO3A,outlaw,i4,soothing,b34,victim,i30,i,80,o,a
+e81ae,1216,PASTOR_abandoning_unemployed_person_IA1E,pastor,i36,abandoning,b21,unemployed person,i12,i,81,a,e
+e81ap,1217,PASTOR_abandoning_unemployed_person_IA2P,pastor,i36,abandoning,b21,unemployed person,i12,i,81,a,p
+e81aa,1218,PASTOR_abandoning_unemployed_person_IA3A,pastor,i36,abandoning,b21,unemployed person,i12,i,81,a,a
+e81be,1438,pastor_ABANDONING_unemployed_person_IB1E,pastor,i36,abandoning,b21,unemployed person,i12,i,81,b,e
+e81bp,1439,pastor_ABANDONING_unemployed_person_IB2P,pastor,i36,abandoning,b21,unemployed person,i12,i,81,b,p
+e81ba,1440,pastor_ABANDONING_unemployed_person_IB3A,pastor,i36,abandoning,b21,unemployed person,i12,i,81,b,a
+e81oe,1660,pastor_abandoning_UNEMPLOYED_PERSON_IO1E,pastor,i36,abandoning,b21,unemployed person,i12,i,81,o,e
+e81op,1661,pastor_abandoning_UNEMPLOYED_PERSON_IO2P,pastor,i36,abandoning,b21,unemployed person,i12,i,81,o,p
+e81oa,1662,pastor_abandoning_UNEMPLOYED_PERSON_IO3A,pastor,i36,abandoning,b21,unemployed person,i12,i,81,o,a
+e82ae,991,PASTOR_chatting_up_youngster_IA1E,pastor,i36,chatting up,b2,youngster,i32,i,82,a,e
+e82ap,992,PASTOR_chatting_up_youngster_IA2P,pastor,i36,chatting up,b2,youngster,i32,i,82,a,p
+e82aa,993,PASTOR_chatting_up_youngster_IA3A,pastor,i36,chatting up,b2,youngster,i32,i,82,a,a
+e82be,1213,pastor_CHATTING_UP_youngster_IB1E,pastor,i36,chatting up,b2,youngster,i32,i,82,b,e
+e82bp,1214,pastor_CHATTING_UP_youngster_IB2P,pastor,i36,chatting up,b2,youngster,i32,i,82,b,p
+e82ba,1215,pastor_CHATTING_UP_youngster_IB3A,pastor,i36,chatting up,b2,youngster,i32,i,82,b,a
+e82oe,1435,pastor_chatting_up_YOUNGSTER_IO1E,pastor,i36,chatting up,b2,youngster,i32,i,82,o,e
+e82op,1436,pastor_chatting_up_YOUNGSTER_IO2P,pastor,i36,chatting up,b2,youngster,i32,i,82,o,p
+e82oa,1437,pastor_chatting_up_YOUNGSTER_IO3A,pastor,i36,chatting up,b2,youngster,i32,i,82,o,a
+e83ae,532,PASTOR_snuggling_toddler_IA1E,pastor,i36,snuggling,b29,toddler,i26,i,83,a,e
+e83ap,533,PASTOR_snuggling_toddler_IA2P,pastor,i36,snuggling,b29,toddler,i26,i,83,a,p
+e83aa,534,PASTOR_snuggling_toddler_IA3A,pastor,i36,snuggling,b29,toddler,i26,i,83,a,a
+e83be,754,pastor_SNUGGLING_toddler_IB1E,pastor,i36,snuggling,b29,toddler,i26,i,83,b,e
+e83bp,755,pastor_SNUGGLING_toddler_IB2P,pastor,i36,snuggling,b29,toddler,i26,i,83,b,p
+e83ba,756,pastor_SNUGGLING_toddler_IB3A,pastor,i36,snuggling,b29,toddler,i26,i,83,b,a
+e83oe,976,pastor_snuggling_TODDLER_IO1E,pastor,i36,snuggling,b29,toddler,i26,i,83,o,e
+e83op,977,pastor_snuggling_TODDLER_IO2P,pastor,i36,snuggling,b29,toddler,i26,i,83,o,p
+e83oa,978,pastor_snuggling_TODDLER_IO3A,pastor,i36,snuggling,b29,toddler,i26,i,83,o,a
+e84be,34,patient_STARING_AT_psychotic_IB1E,patient,i15,staring at,b31,psychotic,i29,i,84,b,e
+e84bp,35,patient_STARING_AT_psychotic_IB2P,patient,i15,staring at,b31,psychotic,i29,i,84,b,p
+e84ba,36,patient_STARING_AT_psychotic_IB3A,patient,i15,staring at,b31,psychotic,i29,i,84,b,a
+e84oe,256,patient_staring_at_PSYCHOTIC_IO1E,patient,i15,staring at,b31,psychotic,i29,i,84,o,e
+e84op,257,patient_staring_at_PSYCHOTIC_IO2P,patient,i15,staring at,b31,psychotic,i29,i,84,o,p
+e84oa,258,patient_staring_at_PSYCHOTIC_IO3A,patient,i15,staring at,b31,psychotic,i29,i,84,o,a
+e84ae,1585,PATIENT_staring_at_psychotic_IA1E,patient,i15,staring at,b31,psychotic,i29,i,84,a,e
+e84ap,1586,PATIENT_staring_at_psychotic_IA2P,patient,i15,staring at,b31,psychotic,i29,i,84,a,p
+e84aa,1587,PATIENT_staring_at_psychotic_IA3A,patient,i15,staring at,b31,psychotic,i29,i,84,a,a
+e85ae,1126,PATIENT_watching_chatterbox_IA1E,patient,i15,watching,b3,chatterbox,i5,i,85,a,e
+e85ap,1127,PATIENT_watching_chatterbox_IA2P,patient,i15,watching,b3,chatterbox,i5,i,85,a,p
+e85aa,1128,PATIENT_watching_chatterbox_IA3A,patient,i15,watching,b3,chatterbox,i5,i,85,a,a
+e85be,1348,patient_WATCHING_chatterbox_IB1E,patient,i15,watching,b3,chatterbox,i5,i,85,b,e
+e85bp,1349,patient_WATCHING_chatterbox_IB2P,patient,i15,watching,b3,chatterbox,i5,i,85,b,p
+e85ba,1350,patient_WATCHING_chatterbox_IB3A,patient,i15,watching,b3,chatterbox,i5,i,85,b,a
+e85oe,1570,patient_watching_CHATTERBOX_IO1E,patient,i15,watching,b3,chatterbox,i5,i,85,o,e
+e85op,1571,patient_watching_CHATTERBOX_IO2P,patient,i15,watching,b3,chatterbox,i5,i,85,o,p
+e85oa,1572,patient_watching_CHATTERBOX_IO3A,patient,i15,watching,b3,chatterbox,i5,i,85,o,a
+e86be,97,physician_CHATTING_UP_scientist_IB1E,physician,i42,chatting up,b2,scientist,i8,i,86,b,e
+e86bp,98,physician_CHATTING_UP_scientist_IB2P,physician,i42,chatting up,b2,scientist,i8,i,86,b,p
+e86ba,99,physician_CHATTING_UP_scientist_IB3A,physician,i42,chatting up,b2,scientist,i8,i,86,b,a
+e86oe,319,physician_chatting_up_SCIENTIST_IO1E,physician,i42,chatting up,b2,scientist,i8,i,86,o,e
+e86op,320,physician_chatting_up_SCIENTIST_IO2P,physician,i42,chatting up,b2,scientist,i8,i,86,o,p
+e86oa,321,physician_chatting_up_SCIENTIST_IO3A,physician,i42,chatting up,b2,scientist,i8,i,86,o,a
+e86ae,1648,PHYSICIAN_chatting_up_scientist_IA1E,physician,i42,chatting up,b2,scientist,i8,i,86,a,e
+e86ap,1649,PHYSICIAN_chatting_up_scientist_IA2P,physician,i42,chatting up,b2,scientist,i8,i,86,a,p
+e86aa,1650,PHYSICIAN_chatting_up_scientist_IA3A,physician,i42,chatting up,b2,scientist,i8,i,86,a,a
+e87ae,1189,PHYSICIAN_massaging_scientist_IA1E,physician,i42,massaging,b18,scientist,i8,i,87,a,e
+e87ap,1190,PHYSICIAN_massaging_scientist_IA2P,physician,i42,massaging,b18,scientist,i8,i,87,a,p
+e87aa,1191,PHYSICIAN_massaging_scientist_IA3A,physician,i42,massaging,b18,scientist,i8,i,87,a,a
+e87be,1411,physician_MASSAGING_scientist_IB1E,physician,i42,massaging,b18,scientist,i8,i,87,b,e
+e87bp,1412,physician_MASSAGING_scientist_IB2P,physician,i42,massaging,b18,scientist,i8,i,87,b,p
+e87ba,1413,physician_MASSAGING_scientist_IB3A,physician,i42,massaging,b18,scientist,i8,i,87,b,a
+e87oe,1633,physician_massaging_SCIENTIST_IO1E,physician,i42,massaging,b18,scientist,i8,i,87,o,e
+e87op,1634,physician_massaging_SCIENTIST_IO2P,physician,i42,massaging,b18,scientist,i8,i,87,o,p
+e87oa,1635,physician_massaging_SCIENTIST_IO3A,physician,i42,massaging,b18,scientist,i8,i,87,o,a
+e88be,106,physician_QUERYING_unemployed_person_IB1E,physician,i42,querying,b19,unemployed person,i12,i,88,b,e
+e88bp,107,physician_QUERYING_unemployed_person_IB2P,physician,i42,querying,b19,unemployed person,i12,i,88,b,p
+e88ba,108,physician_QUERYING_unemployed_person_IB3A,physician,i42,querying,b19,unemployed person,i12,i,88,b,a
+e88oe,328,physician_querying_UNEMPLOYED_PERSON_IO1E,physician,i42,querying,b19,unemployed person,i12,i,88,o,e
+e88op,329,physician_querying_UNEMPLOYED_PERSON_IO2P,physician,i42,querying,b19,unemployed person,i12,i,88,o,p
+e88oa,330,physician_querying_UNEMPLOYED_PERSON_IO3A,physician,i42,querying,b19,unemployed person,i12,i,88,o,a
+e88ae,1657,PHYSICIAN_querying_unemployed_person_IA1E,physician,i42,querying,b19,unemployed person,i12,i,88,a,e
+e88ap,1658,PHYSICIAN_querying_unemployed_person_IA2P,physician,i42,querying,b19,unemployed person,i12,i,88,a,p
+e88aa,1659,PHYSICIAN_querying_unemployed_person_IA3A,physician,i42,querying,b19,unemployed person,i12,i,88,a,a
+e89ae,964,PHYSICIAN_scolding_outlaw_IA1E,physician,i42,scolding,b12,outlaw,i4,i,89,a,e
+e89ap,965,PHYSICIAN_scolding_outlaw_IA2P,physician,i42,scolding,b12,outlaw,i4,i,89,a,p
+e89aa,966,PHYSICIAN_scolding_outlaw_IA3A,physician,i42,scolding,b12,outlaw,i4,i,89,a,a
+e89be,1186,physician_SCOLDING_outlaw_IB1E,physician,i42,scolding,b12,outlaw,i4,i,89,b,e
+e89bp,1187,physician_SCOLDING_outlaw_IB2P,physician,i42,scolding,b12,outlaw,i4,i,89,b,p
+e89ba,1188,physician_SCOLDING_outlaw_IB3A,physician,i42,scolding,b12,outlaw,i4,i,89,b,a
+e89oe,1408,physician_scolding_OUTLAW_IO1E,physician,i42,scolding,b12,outlaw,i4,i,89,o,e
+e89op,1409,physician_scolding_OUTLAW_IO2P,physician,i42,scolding,b12,outlaw,i4,i,89,o,p
+e89oa,1410,physician_scolding_OUTLAW_IO3A,physician,i42,scolding,b12,outlaw,i4,i,89,o,a
+e90ae,523,PRIEST_comforting_gangster_IA1E,priest,i2,comforting,b14,gangster,i33,i,90,a,e
+e90ap,524,PRIEST_comforting_gangster_IA2P,priest,i2,comforting,b14,gangster,i33,i,90,a,p
+e90aa,525,PRIEST_comforting_gangster_IA3A,priest,i2,comforting,b14,gangster,i33,i,90,a,a
+e90be,745,priest_COMFORTING_gangster_IB1E,priest,i2,comforting,b14,gangster,i33,i,90,b,e
+e90bp,746,priest_COMFORTING_gangster_IB2P,priest,i2,comforting,b14,gangster,i33,i,90,b,p
+e90ba,747,priest_COMFORTING_gangster_IB3A,priest,i2,comforting,b14,gangster,i33,i,90,b,a
+e90oe,967,priest_comforting_GANGSTER_IO1E,priest,i2,comforting,b14,gangster,i33,i,90,o,e
+e90op,968,priest_comforting_GANGSTER_IO2P,priest,i2,comforting,b14,gangster,i33,i,90,o,p
+e90oa,969,priest_comforting_GANGSTER_IO3A,priest,i2,comforting,b14,gangster,i33,i,90,o,a
+e91ae,1198,PRIEST_praying_with_dropout_IA1E,priest,i2,praying with,b23,dropout,i46,i,91,a,e
+e91ap,1199,PRIEST_praying_with_dropout_IA2P,priest,i2,praying with,b23,dropout,i46,i,91,a,p
+e91aa,1200,PRIEST_praying_with_dropout_IA3A,priest,i2,praying with,b23,dropout,i46,i,91,a,a
+e91be,1420,priest_PRAYING_WITH_dropout_IB1E,priest,i2,praying with,b23,dropout,i46,i,91,b,e
+e91bp,1421,priest_PRAYING_WITH_dropout_IB2P,priest,i2,praying with,b23,dropout,i46,i,91,b,p
+e91ba,1422,priest_PRAYING_WITH_dropout_IB3A,priest,i2,praying with,b23,dropout,i46,i,91,b,a
+e91oe,1642,priest_praying_with_DROPOUT_IO1E,priest,i2,praying with,b23,dropout,i46,i,91,o,e
+e91op,1643,priest_praying_with_DROPOUT_IO2P,priest,i2,praying with,b23,dropout,i46,i,91,o,p
+e91oa,1644,priest_praying_with_DROPOUT_IO3A,priest,i2,praying with,b23,dropout,i46,i,91,o,a
+e92ae,937,PSYCHOTIC_competing_with_serial_murderer_IA1E,psychotic,i29,competing with,b28,serial murderer,i39,i,92,a,e
+e92ap,938,PSYCHOTIC_competing_with_serial_murderer_IA2P,psychotic,i29,competing with,b28,serial murderer,i39,i,92,a,p
+e92aa,939,PSYCHOTIC_competing_with_serial_murderer_IA3A,psychotic,i29,competing with,b28,serial murderer,i39,i,92,a,a
+e92be,1159,psychotic_COMPETING_WITH_serial_murderer_IB1E,psychotic,i29,competing with,b28,serial murderer,i39,i,92,b,e
+e92bp,1160,psychotic_COMPETING_WITH_serial_murderer_IB2P,psychotic,i29,competing with,b28,serial murderer,i39,i,92,b,p
+e92ba,1161,psychotic_COMPETING_WITH_serial_murderer_IB3A,psychotic,i29,competing with,b28,serial murderer,i39,i,92,b,a
+e92oe,1381,psychotic_competing_with_SERIAL_MURDERER_IO1E,psychotic,i29,competing with,b28,serial murderer,i39,i,92,o,e
+e92op,1382,psychotic_competing_with_SERIAL_MURDERER_IO2P,psychotic,i29,competing with,b28,serial murderer,i39,i,92,o,p
+e92oa,1383,psychotic_competing_with_SERIAL_MURDERER_IO3A,psychotic,i29,competing with,b28,serial murderer,i39,i,92,o,a
+e93ae,946,PSYCHOTIC_confining_athlete_IA1E,psychotic,i29,confining,b20,athlete,i1,i,93,a,e
+e93ap,947,PSYCHOTIC_confining_athlete_IA2P,psychotic,i29,confining,b20,athlete,i1,i,93,a,p
+e93aa,948,PSYCHOTIC_confining_athlete_IA3A,psychotic,i29,confining,b20,athlete,i1,i,93,a,a
+e93be,1168,psychotic_CONFINING_athlete_IB1E,psychotic,i29,confining,b20,athlete,i1,i,93,b,e
+e93bp,1169,psychotic_CONFINING_athlete_IB2P,psychotic,i29,confining,b20,athlete,i1,i,93,b,p
+e93ba,1170,psychotic_CONFINING_athlete_IB3A,psychotic,i29,confining,b20,athlete,i1,i,93,b,a
+e93oe,1390,psychotic_confining_ATHLETE_IO1E,psychotic,i29,confining,b20,athlete,i1,i,93,o,e
+e93op,1391,psychotic_confining_ATHLETE_IO2P,psychotic,i29,confining,b20,athlete,i1,i,93,o,p
+e93oa,1392,psychotic_confining_ATHLETE_IO3A,psychotic,i29,confining,b20,athlete,i1,i,93,o,a
+e94ae,487,PSYCHOTIC_following_champion_IA1E,psychotic,i29,following,b24,champion,i24,i,94,a,e
+e94ap,488,PSYCHOTIC_following_champion_IA2P,psychotic,i29,following,b24,champion,i24,i,94,a,p
+e94aa,489,PSYCHOTIC_following_champion_IA3A,psychotic,i29,following,b24,champion,i24,i,94,a,a
+e94be,709,psychotic_FOLLOWING_champion_IB1E,psychotic,i29,following,b24,champion,i24,i,94,b,e
+e94bp,710,psychotic_FOLLOWING_champion_IB2P,psychotic,i29,following,b24,champion,i24,i,94,b,p
+e94ba,711,psychotic_FOLLOWING_champion_IB3A,psychotic,i29,following,b24,champion,i24,i,94,b,a
+e94oe,931,psychotic_following_CHAMPION_IO1E,psychotic,i29,following,b24,champion,i24,i,94,o,e
+e94op,932,psychotic_following_CHAMPION_IO2P,psychotic,i29,following,b24,champion,i24,i,94,o,p
+e94oa,933,psychotic_following_CHAMPION_IO3A,psychotic,i29,following,b24,champion,i24,i,94,o,a
+e95ae,955,PSYCHOTIC_monitoring_divorcé_IA1E,psychotic,i29,monitoring,b25,divorcé,i16,i,95,a,e
+e95ap,956,PSYCHOTIC_monitoring_divorcé_IA2P,psychotic,i29,monitoring,b25,divorcé,i16,i,95,a,p
+e95aa,957,PSYCHOTIC_monitoring_divorcé_IA3A,psychotic,i29,monitoring,b25,divorcé,i16,i,95,a,a
+e95be,1177,psychotic_MONITORING_divorcé_IB1E,psychotic,i29,monitoring,b25,divorcé,i16,i,95,b,e
+e95bp,1178,psychotic_MONITORING_divorcé_IB2P,psychotic,i29,monitoring,b25,divorcé,i16,i,95,b,p
+e95ba,1179,psychotic_MONITORING_divorcé_IB3A,psychotic,i29,monitoring,b25,divorcé,i16,i,95,b,a
+e95oe,1399,psychotic_monitoring_DIVORCÉ_IO1E,psychotic,i29,monitoring,b25,divorcé,i16,i,95,o,e
+e95op,1400,psychotic_monitoring_DIVORCÉ_IO2P,psychotic,i29,monitoring,b25,divorcé,i16,i,95,o,p
+e95oa,1401,psychotic_monitoring_DIVORCÉ_IO3A,psychotic,i29,monitoring,b25,divorcé,i16,i,95,o,a
+e96ae,1180,PSYCHOTIC_pinching_hothead_IA1E,psychotic,i29,pinching,b17,hothead,i17,i,96,a,e
+e96ap,1181,PSYCHOTIC_pinching_hothead_IA2P,psychotic,i29,pinching,b17,hothead,i17,i,96,a,p
+e96aa,1182,PSYCHOTIC_pinching_hothead_IA3A,psychotic,i29,pinching,b17,hothead,i17,i,96,a,a
+e96be,1402,psychotic_PINCHING_hothead_IB1E,psychotic,i29,pinching,b17,hothead,i17,i,96,b,e
+e96bp,1403,psychotic_PINCHING_hothead_IB2P,psychotic,i29,pinching,b17,hothead,i17,i,96,b,p
+e96ba,1404,psychotic_PINCHING_hothead_IB3A,psychotic,i29,pinching,b17,hothead,i17,i,96,b,a
+e96oe,1624,psychotic_pinching_HOTHEAD_IO1E,psychotic,i29,pinching,b17,hothead,i17,i,96,o,e
+e96op,1625,psychotic_pinching_HOTHEAD_IO2P,psychotic,i29,pinching,b17,hothead,i17,i,96,o,p
+e96oa,1626,psychotic_pinching_HOTHEAD_IO3A,psychotic,i29,pinching,b17,hothead,i17,i,96,o,a
+e97ae,667,REGISTERED_NURSE_coaching_applicant_IA1E,registered nurse,i7,coaching,b22,applicant,i37,i,97,a,e
+e97ap,668,REGISTERED_NURSE_coaching_applicant_IA2P,registered nurse,i7,coaching,b22,applicant,i37,i,97,a,p
+e97aa,669,REGISTERED_NURSE_coaching_applicant_IA3A,registered nurse,i7,coaching,b22,applicant,i37,i,97,a,a
+e97be,889,registered_nurse_COACHING_applicant_IB1E,registered nurse,i7,coaching,b22,applicant,i37,i,97,b,e
+e97bp,890,registered_nurse_COACHING_applicant_IB2P,registered nurse,i7,coaching,b22,applicant,i37,i,97,b,p
+e97ba,891,registered_nurse_COACHING_applicant_IB3A,registered nurse,i7,coaching,b22,applicant,i37,i,97,b,a
+e97oe,1111,registered_nurse_coaching_APPLICANT_IO1E,registered nurse,i7,coaching,b22,applicant,i37,i,97,o,e
+e97op,1112,registered_nurse_coaching_APPLICANT_IO2P,registered nurse,i7,coaching,b22,applicant,i37,i,97,o,p
+e97oa,1113,registered_nurse_coaching_APPLICANT_IO3A,registered nurse,i7,coaching,b22,applicant,i37,i,97,o,a
+e98ae,244,REGISTERED_NURSE_fussing_over_patient_IA1E,registered nurse,i7,fussing over,b9,patient,i15,i,98,a,e
+e98ap,245,REGISTERED_NURSE_fussing_over_patient_IA2P,registered nurse,i7,fussing over,b9,patient,i15,i,98,a,p
+e98aa,246,REGISTERED_NURSE_fussing_over_patient_IA3A,registered nurse,i7,fussing over,b9,patient,i15,i,98,a,a
+e98be,466,registered_nurse_FUSSING_OVER_patient_IB1E,registered nurse,i7,fussing over,b9,patient,i15,i,98,b,e
+e98bp,467,registered_nurse_FUSSING_OVER_patient_IB2P,registered nurse,i7,fussing over,b9,patient,i15,i,98,b,p
+e98ba,468,registered_nurse_FUSSING_OVER_patient_IB3A,registered nurse,i7,fussing over,b9,patient,i15,i,98,b,a
+e98oe,688,registered_nurse_fussing_over_PATIENT_IO1E,registered nurse,i7,fussing over,b9,patient,i15,i,98,o,e
+e98op,689,registered_nurse_fussing_over_PATIENT_IO2P,registered nurse,i7,fussing over,b9,patient,i15,i,98,o,p
+e98oa,690,registered_nurse_fussing_over_PATIENT_IO3A,registered nurse,i7,fussing over,b9,patient,i15,i,98,o,a
+e99ae,694,REGISTERED_NURSE_monitoring_brat_IA1E,registered nurse,i7,monitoring,b25,brat,i45,i,99,a,e
+e99ap,695,REGISTERED_NURSE_monitoring_brat_IA2P,registered nurse,i7,monitoring,b25,brat,i45,i,99,a,p
+e99aa,696,REGISTERED_NURSE_monitoring_brat_IA3A,registered nurse,i7,monitoring,b25,brat,i45,i,99,a,a
+e99be,916,registered_nurse_MONITORING_brat_IB1E,registered nurse,i7,monitoring,b25,brat,i45,i,99,b,e
+e99bp,917,registered_nurse_MONITORING_brat_IB2P,registered nurse,i7,monitoring,b25,brat,i45,i,99,b,p
+e99ba,918,registered_nurse_MONITORING_brat_IB3A,registered nurse,i7,monitoring,b25,brat,i45,i,99,b,a
+e99oe,1138,registered_nurse_monitoring_BRAT_IO1E,registered nurse,i7,monitoring,b25,brat,i45,i,99,o,e
+e99op,1139,registered_nurse_monitoring_BRAT_IO2P,registered nurse,i7,monitoring,b25,brat,i45,i,99,o,p
+e99oa,1140,registered_nurse_monitoring_BRAT_IO3A,registered nurse,i7,monitoring,b25,brat,i45,i,99,o,a
+e100ae,685,REGISTERED_NURSE_monitoring_patient_IA1E,registered nurse,i7,monitoring,b25,patient,i15,i,100,a,e
+e100ap,686,REGISTERED_NURSE_monitoring_patient_IA2P,registered nurse,i7,monitoring,b25,patient,i15,i,100,a,p
+e100aa,687,REGISTERED_NURSE_monitoring_patient_IA3A,registered nurse,i7,monitoring,b25,patient,i15,i,100,a,a
+e100be,907,registered_nurse_MONITORING_patient_IB1E,registered nurse,i7,monitoring,b25,patient,i15,i,100,b,e
+e100bp,908,registered_nurse_MONITORING_patient_IB2P,registered nurse,i7,monitoring,b25,patient,i15,i,100,b,p
+e100ba,909,registered_nurse_MONITORING_patient_IB3A,registered nurse,i7,monitoring,b25,patient,i15,i,100,b,a
+e100oe,1129,registered_nurse_monitoring_PATIENT_IO1E,registered nurse,i7,monitoring,b25,patient,i15,i,100,o,e
+e100op,1130,registered_nurse_monitoring_PATIENT_IO2P,registered nurse,i7,monitoring,b25,patient,i15,i,100,o,p
+e100oa,1131,registered_nurse_monitoring_PATIENT_IO3A,registered nurse,i7,monitoring,b25,patient,i15,i,100,o,a
+e101ae,235,REGISTERED_NURSE_watching_brat_IA1E,registered nurse,i7,watching,b3,brat,i45,i,101,a,e
+e101ap,236,REGISTERED_NURSE_watching_brat_IA2P,registered nurse,i7,watching,b3,brat,i45,i,101,a,p
+e101aa,237,REGISTERED_NURSE_watching_brat_IA3A,registered nurse,i7,watching,b3,brat,i45,i,101,a,a
+e101be,457,registered_nurse_WATCHING_brat_IB1E,registered nurse,i7,watching,b3,brat,i45,i,101,b,e
+e101bp,458,registered_nurse_WATCHING_brat_IB2P,registered nurse,i7,watching,b3,brat,i45,i,101,b,p
+e101ba,459,registered_nurse_WATCHING_brat_IB3A,registered nurse,i7,watching,b3,brat,i45,i,101,b,a
+e101oe,679,registered_nurse_watching_BRAT_IO1E,registered nurse,i7,watching,b3,brat,i45,i,101,o,e
+e101op,680,registered_nurse_watching_BRAT_IO2P,registered nurse,i7,watching,b3,brat,i45,i,101,o,p
+e101oa,681,registered_nurse_watching_BRAT_IO3A,registered nurse,i7,watching,b3,brat,i45,i,101,o,a
+e102ae,1144,RETIREE_fussing_over_brat_IA1E,retiree,i21,fussing over,b9,brat,i45,i,102,a,e
+e102ap,1145,RETIREE_fussing_over_brat_IA2P,retiree,i21,fussing over,b9,brat,i45,i,102,a,p
+e102aa,1146,RETIREE_fussing_over_brat_IA3A,retiree,i21,fussing over,b9,brat,i45,i,102,a,a
+e102be,1366,retiree_FUSSING_OVER_brat_IB1E,retiree,i21,fussing over,b9,brat,i45,i,102,b,e
+e102bp,1367,retiree_FUSSING_OVER_brat_IB2P,retiree,i21,fussing over,b9,brat,i45,i,102,b,p
+e102ba,1368,retiree_FUSSING_OVER_brat_IB3A,retiree,i21,fussing over,b9,brat,i45,i,102,b,a
+e102oe,1588,retiree_fussing_over_BRAT_IO1E,retiree,i21,fussing over,b9,brat,i45,i,102,o,e
+e102op,1589,retiree_fussing_over_BRAT_IO2P,retiree,i21,fussing over,b9,brat,i45,i,102,o,p
+e102oa,1590,retiree_fussing_over_BRAT_IO3A,retiree,i21,fussing over,b9,brat,i45,i,102,o,a
+e103ae,1135,RETIREE_fussing_over_old_timer_IA1E,retiree,i21,fussing over,b9,old timer,i9,i,103,a,e
+e103ap,1136,RETIREE_fussing_over_old_timer_IA2P,retiree,i21,fussing over,b9,old timer,i9,i,103,a,p
+e103aa,1137,RETIREE_fussing_over_old_timer_IA3A,retiree,i21,fussing over,b9,old timer,i9,i,103,a,a
+e103be,1357,retiree_FUSSING_OVER_old_timer_IB1E,retiree,i21,fussing over,b9,old timer,i9,i,103,b,e
+e103bp,1358,retiree_FUSSING_OVER_old_timer_IB2P,retiree,i21,fussing over,b9,old timer,i9,i,103,b,p
+e103ba,1359,retiree_FUSSING_OVER_old_timer_IB3A,retiree,i21,fussing over,b9,old timer,i9,i,103,b,a
+e103oe,1579,retiree_fussing_over_OLD_TIMER_IO1E,retiree,i21,fussing over,b9,old timer,i9,i,103,o,e
+e103op,1580,retiree_fussing_over_OLD_TIMER_IO2P,retiree,i21,fussing over,b9,old timer,i9,i,103,o,p
+e103oa,1581,retiree_fussing_over_OLD_TIMER_IO3A,retiree,i21,fussing over,b9,old timer,i9,i,103,o,a
+e104ae,892,RETIREE_laughing_with_athlete_IA1E,retiree,i21,laughing with,b6,athlete,i1,i,104,a,e
+e104ap,893,RETIREE_laughing_with_athlete_IA2P,retiree,i21,laughing with,b6,athlete,i1,i,104,a,p
+e104aa,894,RETIREE_laughing_with_athlete_IA3A,retiree,i21,laughing with,b6,athlete,i1,i,104,a,a
+e104be,1114,retiree_LAUGHING_WITH_athlete_IB1E,retiree,i21,laughing with,b6,athlete,i1,i,104,b,e
+e104bp,1115,retiree_LAUGHING_WITH_athlete_IB2P,retiree,i21,laughing with,b6,athlete,i1,i,104,b,p
+e104ba,1116,retiree_LAUGHING_WITH_athlete_IB3A,retiree,i21,laughing with,b6,athlete,i1,i,104,b,a
+e104oe,1336,retiree_laughing_with_ATHLETE_IO1E,retiree,i21,laughing with,b6,athlete,i1,i,104,o,e
+e104op,1337,retiree_laughing_with_ATHLETE_IO2P,retiree,i21,laughing with,b6,athlete,i1,i,104,o,p
+e104oa,1338,retiree_laughing_with_ATHLETE_IO3A,retiree,i21,laughing with,b6,athlete,i1,i,104,o,a
+e105ae,919,RETIREE_monitoring_executioner_IA1E,retiree,i21,monitoring,b25,executioner,i28,i,105,a,e
+e105ap,920,RETIREE_monitoring_executioner_IA2P,retiree,i21,monitoring,b25,executioner,i28,i,105,a,p
+e105aa,921,RETIREE_monitoring_executioner_IA3A,retiree,i21,monitoring,b25,executioner,i28,i,105,a,a
+e105be,1141,retiree_MONITORING_executioner_IB1E,retiree,i21,monitoring,b25,executioner,i28,i,105,b,e
+e105bp,1142,retiree_MONITORING_executioner_IB2P,retiree,i21,monitoring,b25,executioner,i28,i,105,b,p
+e105ba,1143,retiree_MONITORING_executioner_IB3A,retiree,i21,monitoring,b25,executioner,i28,i,105,b,a
+e105oe,1363,retiree_monitoring_EXECUTIONER_IO1E,retiree,i21,monitoring,b25,executioner,i28,i,105,o,e
+e105op,1364,retiree_monitoring_EXECUTIONER_IO2P,retiree,i21,monitoring,b25,executioner,i28,i,105,o,p
+e105oa,1365,retiree_monitoring_EXECUTIONER_IO3A,retiree,i21,monitoring,b25,executioner,i28,i,105,o,a
+e106ae,910,RETIREE_monitoring_registered_nurse_IA1E,retiree,i21,monitoring,b25,registered nurse,i7,i,106,a,e
+e106ap,911,RETIREE_monitoring_registered_nurse_IA2P,retiree,i21,monitoring,b25,registered nurse,i7,i,106,a,p
+e106aa,912,RETIREE_monitoring_registered_nurse_IA3A,retiree,i21,monitoring,b25,registered nurse,i7,i,106,a,a
+e106be,1132,retiree_MONITORING_registered_nurse_IB1E,retiree,i21,monitoring,b25,registered nurse,i7,i,106,b,e
+e106bp,1133,retiree_MONITORING_registered_nurse_IB2P,retiree,i21,monitoring,b25,registered nurse,i7,i,106,b,p
+e106ba,1134,retiree_MONITORING_registered_nurse_IB3A,retiree,i21,monitoring,b25,registered nurse,i7,i,106,b,a
+e106oe,1354,retiree_monitoring_REGISTERED_NURSE_IO1E,retiree,i21,monitoring,b25,registered nurse,i7,i,106,o,e
+e106op,1355,retiree_monitoring_REGISTERED_NURSE_IO2P,retiree,i21,monitoring,b25,registered nurse,i7,i,106,o,p
+e106oa,1356,retiree_monitoring_REGISTERED_NURSE_IO3A,retiree,i21,monitoring,b25,registered nurse,i7,i,106,o,a
+e107ae,460,RETIREE_obeying_serial_murderer_IA1E,retiree,i21,obeying,b30,serial murderer,i39,i,107,a,e
+e107ap,461,RETIREE_obeying_serial_murderer_IA2P,retiree,i21,obeying,b30,serial murderer,i39,i,107,a,p
+e107aa,462,RETIREE_obeying_serial_murderer_IA3A,retiree,i21,obeying,b30,serial murderer,i39,i,107,a,a
+e107be,682,retiree_OBEYING_serial_murderer_IB1E,retiree,i21,obeying,b30,serial murderer,i39,i,107,b,e
+e107bp,683,retiree_OBEYING_serial_murderer_IB2P,retiree,i21,obeying,b30,serial murderer,i39,i,107,b,p
+e107ba,684,retiree_OBEYING_serial_murderer_IB3A,retiree,i21,obeying,b30,serial murderer,i39,i,107,b,a
+e107oe,904,retiree_obeying_SERIAL_MURDERER_IO1E,retiree,i21,obeying,b30,serial murderer,i39,i,107,o,e
+e107op,905,retiree_obeying_SERIAL_MURDERER_IO2P,retiree,i21,obeying,b30,serial murderer,i39,i,107,o,p
+e107oa,906,retiree_obeying_SERIAL_MURDERER_IO3A,retiree,i21,obeying,b30,serial murderer,i39,i,107,o,a
+e108ae,1117,RETIREE_waiting_on_patient_IA1E,retiree,i21,waiting on,b35,patient,i15,i,108,a,e
+e108ap,1118,RETIREE_waiting_on_patient_IA2P,retiree,i21,waiting on,b35,patient,i15,i,108,a,p
+e108aa,1119,RETIREE_waiting_on_patient_IA3A,retiree,i21,waiting on,b35,patient,i15,i,108,a,a
+e108be,1339,retiree_WAITING_ON_patient_IB1E,retiree,i21,waiting on,b35,patient,i15,i,108,b,e
+e108bp,1340,retiree_WAITING_ON_patient_IB2P,retiree,i21,waiting on,b35,patient,i15,i,108,b,p
+e108ba,1341,retiree_WAITING_ON_patient_IB3A,retiree,i21,waiting on,b35,patient,i15,i,108,b,a
+e108oe,1561,retiree_waiting_on_PATIENT_IO1E,retiree,i21,waiting on,b35,patient,i15,i,108,o,e
+e108op,1562,retiree_waiting_on_PATIENT_IO2P,retiree,i21,waiting on,b35,patient,i15,i,108,o,p
+e108oa,1563,retiree_waiting_on_PATIENT_IO3A,retiree,i21,waiting on,b35,patient,i15,i,108,o,a
+e109ae,1207,SCIENTIST_abandoning_genius_IA1E,scientist,i8,abandoning,b21,genius,i25,i,109,a,e
+e109ap,1208,SCIENTIST_abandoning_genius_IA2P,scientist,i8,abandoning,b21,genius,i25,i,109,a,p
+e109aa,1209,SCIENTIST_abandoning_genius_IA3A,scientist,i8,abandoning,b21,genius,i25,i,109,a,a
+e109be,1429,scientist_ABANDONING_genius_IB1E,scientist,i8,abandoning,b21,genius,i25,i,109,b,e
+e109bp,1430,scientist_ABANDONING_genius_IB2P,scientist,i8,abandoning,b21,genius,i25,i,109,b,p
+e109ba,1431,scientist_ABANDONING_genius_IB3A,scientist,i8,abandoning,b21,genius,i25,i,109,b,a
+e109oe,1651,scientist_abandoning_GENIUS_IO1E,scientist,i8,abandoning,b21,genius,i25,i,109,o,e
+e109op,1652,scientist_abandoning_GENIUS_IO2P,scientist,i8,abandoning,b21,genius,i25,i,109,o,p
+e109oa,1653,scientist_abandoning_GENIUS_IO3A,scientist,i8,abandoning,b21,genius,i25,i,109,o,a
+e110ae,703,SERIAL_MURDERER_joking_with_retiree_IA1E,serial murderer,i39,joking with,b1,retiree,i21,i,110,a,e
+e110ap,704,SERIAL_MURDERER_joking_with_retiree_IA2P,serial murderer,i39,joking with,b1,retiree,i21,i,110,a,p
+e110aa,705,SERIAL_MURDERER_joking_with_retiree_IA3A,serial murderer,i39,joking with,b1,retiree,i21,i,110,a,a
+e110be,925,serial_murderer_JOKING_WITH_retiree_IB1E,serial murderer,i39,joking with,b1,retiree,i21,i,110,b,e
+e110bp,926,serial_murderer_JOKING_WITH_retiree_IB2P,serial murderer,i39,joking with,b1,retiree,i21,i,110,b,p
+e110ba,927,serial_murderer_JOKING_WITH_retiree_IB3A,serial murderer,i39,joking with,b1,retiree,i21,i,110,b,a
+e110oe,1147,serial_murderer_joking_with_RETIREE_IO1E,serial murderer,i39,joking with,b1,retiree,i21,i,110,o,e
+e110op,1148,serial_murderer_joking_with_RETIREE_IO2P,serial murderer,i39,joking with,b1,retiree,i21,i,110,o,p
+e110oa,1149,serial_murderer_joking_with_RETIREE_IO3A,serial murderer,i39,joking with,b1,retiree,i21,i,110,o,a
+e111ae,271,SERIAL_MURDERER_watching_psychotic_IA1E,serial murderer,i39,watching,b3,psychotic,i29,i,111,a,e
+e111ap,272,SERIAL_MURDERER_watching_psychotic_IA2P,serial murderer,i39,watching,b3,psychotic,i29,i,111,a,p
+e111aa,273,SERIAL_MURDERER_watching_psychotic_IA3A,serial murderer,i39,watching,b3,psychotic,i29,i,111,a,a
+e111be,493,serial_murderer_WATCHING_psychotic_IB1E,serial murderer,i39,watching,b3,psychotic,i29,i,111,b,e
+e111bp,494,serial_murderer_WATCHING_psychotic_IB2P,serial murderer,i39,watching,b3,psychotic,i29,i,111,b,p
+e111ba,495,serial_murderer_WATCHING_psychotic_IB3A,serial murderer,i39,watching,b3,psychotic,i29,i,111,b,a
+e111oe,715,serial_murderer_watching_PSYCHOTIC_IO1E,serial murderer,i39,watching,b3,psychotic,i29,i,111,o,e
+e111op,716,serial_murderer_watching_PSYCHOTIC_IO2P,serial murderer,i39,watching,b3,psychotic,i29,i,111,o,p
+e111oa,717,serial_murderer_watching_PSYCHOTIC_IO3A,serial murderer,i39,watching,b3,psychotic,i29,i,111,o,a
+e112ae,109,TEENAGER_combating_bully_IA1E,teenager,i20,combating,b27,bully,i27,i,112,a,e
+e112ap,110,TEENAGER_combating_bully_IA2P,teenager,i20,combating,b27,bully,i27,i,112,a,p
+e112aa,111,TEENAGER_combating_bully_IA3A,teenager,i20,combating,b27,bully,i27,i,112,a,a
+e112be,331,teenager_COMBATING_bully_IB1E,teenager,i20,combating,b27,bully,i27,i,112,b,e
+e112bp,332,teenager_COMBATING_bully_IB2P,teenager,i20,combating,b27,bully,i27,i,112,b,p
+e112ba,333,teenager_COMBATING_bully_IB3A,teenager,i20,combating,b27,bully,i27,i,112,b,a
+e112oe,553,teenager_combating_BULLY_IO1E,teenager,i20,combating,b27,bully,i27,i,112,o,e
+e112op,554,teenager_combating_BULLY_IO2P,teenager,i20,combating,b27,bully,i27,i,112,o,p
+e112oa,555,teenager_combating_BULLY_IO3A,teenager,i20,combating,b27,bully,i27,i,112,o,a
+e113ae,136,TEENAGER_escaping_toddler_IA1E,teenager,i20,escaping,b7,toddler,i26,i,113,a,e
+e113ap,137,TEENAGER_escaping_toddler_IA2P,teenager,i20,escaping,b7,toddler,i26,i,113,a,p
+e113aa,138,TEENAGER_escaping_toddler_IA3A,teenager,i20,escaping,b7,toddler,i26,i,113,a,a
+e113be,358,teenager_ESCAPING_toddler_IB1E,teenager,i20,escaping,b7,toddler,i26,i,113,b,e
+e113bp,359,teenager_ESCAPING_toddler_IB2P,teenager,i20,escaping,b7,toddler,i26,i,113,b,p
+e113ba,360,teenager_ESCAPING_toddler_IB3A,teenager,i20,escaping,b7,toddler,i26,i,113,b,a
+e113oe,580,teenager_escaping_TODDLER_IO1E,teenager,i20,escaping,b7,toddler,i26,i,113,o,e
+e113op,581,teenager_escaping_TODDLER_IO2P,teenager,i20,escaping,b7,toddler,i26,i,113,o,p
+e113oa,582,teenager_escaping_TODDLER_IO3A,teenager,i20,escaping,b7,toddler,i26,i,113,o,a
+e114oe,121,teenager_massaging_TODDLER_IO1E,teenager,i20,massaging,b18,toddler,i26,i,114,o,e
+e114op,122,teenager_massaging_TODDLER_IO2P,teenager,i20,massaging,b18,toddler,i26,i,114,o,p
+e114oa,123,teenager_massaging_TODDLER_IO3A,teenager,i20,massaging,b18,toddler,i26,i,114,o,a
+e114ae,1450,TEENAGER_massaging_toddler_IA1E,teenager,i20,massaging,b18,toddler,i26,i,114,a,e
+e114ap,1451,TEENAGER_massaging_toddler_IA2P,teenager,i20,massaging,b18,toddler,i26,i,114,a,p
+e114aa,1452,TEENAGER_massaging_toddler_IA3A,teenager,i20,massaging,b18,toddler,i26,i,114,a,a
+e114be,1672,teenager_MASSAGING_toddler_IB1E,teenager,i20,massaging,b18,toddler,i26,i,114,b,e
+e114bp,1673,teenager_MASSAGING_toddler_IB2P,teenager,i20,massaging,b18,toddler,i26,i,114,b,p
+e114ba,1674,teenager_MASSAGING_toddler_IB3A,teenager,i20,massaging,b18,toddler,i26,i,114,b,a
+e115ae,793,TEENAGER_querying_grandfather_IA1E,teenager,i20,querying,b19,grandfather,i41,i,115,a,e
+e115ap,794,TEENAGER_querying_grandfather_IA2P,teenager,i20,querying,b19,grandfather,i41,i,115,a,p
+e115aa,795,TEENAGER_querying_grandfather_IA3A,teenager,i20,querying,b19,grandfather,i41,i,115,a,a
+e115be,1015,teenager_QUERYING_grandfather_IB1E,teenager,i20,querying,b19,grandfather,i41,i,115,b,e
+e115bp,1016,teenager_QUERYING_grandfather_IB2P,teenager,i20,querying,b19,grandfather,i41,i,115,b,p
+e115ba,1017,teenager_QUERYING_grandfather_IB3A,teenager,i20,querying,b19,grandfather,i41,i,115,b,a
+e115oe,1237,teenager_querying_GRANDFATHER_IO1E,teenager,i20,querying,b19,grandfather,i41,i,115,o,e
+e115op,1238,teenager_querying_GRANDFATHER_IO2P,teenager,i20,querying,b19,grandfather,i41,i,115,o,p
+e115oa,1239,teenager_querying_GRANDFATHER_IO3A,teenager,i20,querying,b19,grandfather,i41,i,115,o,a
+e116oe,139,teenager_scoffing_at_TODDLER_IO1E,teenager,i20,scoffing at,b37,toddler,i26,i,116,o,e
+e116op,140,teenager_scoffing_at_TODDLER_IO2P,teenager,i20,scoffing at,b37,toddler,i26,i,116,o,p
+e116oa,141,teenager_scoffing_at_TODDLER_IO3A,teenager,i20,scoffing at,b37,toddler,i26,i,116,o,a
+e116ae,1468,TEENAGER_scoffing_at_toddler_IA1E,teenager,i20,scoffing at,b37,toddler,i26,i,116,a,e
+e116ap,1469,TEENAGER_scoffing_at_toddler_IA2P,teenager,i20,scoffing at,b37,toddler,i26,i,116,a,p
+e116aa,1470,TEENAGER_scoffing_at_toddler_IA3A,teenager,i20,scoffing at,b37,toddler,i26,i,116,a,a
+e116be,1690,teenager_SCOFFING_AT_toddler_IB1E,teenager,i20,scoffing at,b37,toddler,i26,i,116,b,e
+e116bp,1691,teenager_SCOFFING_AT_toddler_IB2P,teenager,i20,scoffing at,b37,toddler,i26,i,116,b,p
+e116ba,1692,teenager_SCOFFING_AT_toddler_IB3A,teenager,i20,scoffing at,b37,toddler,i26,i,116,b,a
+e117ae,118,TEENAGER_scolding_toddler_IA1E,teenager,i20,scolding,b12,toddler,i26,i,117,a,e
+e117ap,119,TEENAGER_scolding_toddler_IA2P,teenager,i20,scolding,b12,toddler,i26,i,117,a,p
+e117aa,120,TEENAGER_scolding_toddler_IA3A,teenager,i20,scolding,b12,toddler,i26,i,117,a,a
+e117be,340,teenager_SCOLDING_toddler_IB1E,teenager,i20,scolding,b12,toddler,i26,i,117,b,e
+e117bp,341,teenager_SCOLDING_toddler_IB2P,teenager,i20,scolding,b12,toddler,i26,i,117,b,p
+e117ba,342,teenager_SCOLDING_toddler_IB3A,teenager,i20,scolding,b12,toddler,i26,i,117,b,a
+e117oe,562,teenager_scolding_TODDLER_IO1E,teenager,i20,scolding,b12,toddler,i26,i,117,o,e
+e117op,563,teenager_scolding_TODDLER_IO2P,teenager,i20,scolding,b12,toddler,i26,i,117,o,p
+e117oa,564,teenager_scolding_TODDLER_IO3A,teenager,i20,scolding,b12,toddler,i26,i,117,o,a
+e118oe,112,teenager_soothing_OUTLAW_IO1E,teenager,i20,soothing,b34,outlaw,i4,i,118,o,e
+e118op,113,teenager_soothing_OUTLAW_IO2P,teenager,i20,soothing,b34,outlaw,i4,i,118,o,p
+e118oa,114,teenager_soothing_OUTLAW_IO3A,teenager,i20,soothing,b34,outlaw,i4,i,118,o,a
+e118ae,1441,TEENAGER_soothing_outlaw_IA1E,teenager,i20,soothing,b34,outlaw,i4,i,118,a,e
+e118ap,1442,TEENAGER_soothing_outlaw_IA2P,teenager,i20,soothing,b34,outlaw,i4,i,118,a,p
+e118aa,1443,TEENAGER_soothing_outlaw_IA3A,teenager,i20,soothing,b34,outlaw,i4,i,118,a,a
+e118be,1663,teenager_SOOTHING_outlaw_IB1E,teenager,i20,soothing,b34,outlaw,i4,i,118,b,e
+e118bp,1664,teenager_SOOTHING_outlaw_IB2P,teenager,i20,soothing,b34,outlaw,i4,i,118,b,p
+e118ba,1665,teenager_SOOTHING_outlaw_IB3A,teenager,i20,soothing,b34,outlaw,i4,i,118,b,a
+e119ae,1018,UNEMPLOYED_PERSON_chatting_up_gunman_IA1E,unemployed person,i12,chatting up,b2,gunman,i38,i,119,a,e
+e119ap,1019,UNEMPLOYED_PERSON_chatting_up_gunman_IA2P,unemployed person,i12,chatting up,b2,gunman,i38,i,119,a,p
+e119aa,1020,UNEMPLOYED_PERSON_chatting_up_gunman_IA3A,unemployed person,i12,chatting up,b2,gunman,i38,i,119,a,a
+e119be,1240,unemployed_person_CHATTING_UP_gunman_IB1E,unemployed person,i12,chatting up,b2,gunman,i38,i,119,b,e
+e119bp,1241,unemployed_person_CHATTING_UP_gunman_IB2P,unemployed person,i12,chatting up,b2,gunman,i38,i,119,b,p
+e119ba,1242,unemployed_person_CHATTING_UP_gunman_IB3A,unemployed person,i12,chatting up,b2,gunman,i38,i,119,b,a
+e119oe,1462,unemployed_person_chatting_up_GUNMAN_IO1E,unemployed person,i12,chatting up,b2,gunman,i38,i,119,o,e
+e119op,1463,unemployed_person_chatting_up_GUNMAN_IO2P,unemployed person,i12,chatting up,b2,gunman,i38,i,119,o,p
+e119oa,1464,unemployed_person_chatting_up_GUNMAN_IO3A,unemployed person,i12,chatting up,b2,gunman,i38,i,119,o,a
+e120ae,1252,UNEMPLOYED_PERSON_scoffing_at_deadbeat_dad_IA1E,unemployed person,i12,scoffing at,b37,deadbeat dad,i35,i,120,a,e
+e120ap,1253,UNEMPLOYED_PERSON_scoffing_at_deadbeat_dad_IA2P,unemployed person,i12,scoffing at,b37,deadbeat dad,i35,i,120,a,p
+e120aa,1254,UNEMPLOYED_PERSON_scoffing_at_deadbeat_dad_IA3A,unemployed person,i12,scoffing at,b37,deadbeat dad,i35,i,120,a,a
+e120be,1474,unemployed_person_SCOFFING_AT_deadbeat_dad_IB1E,unemployed person,i12,scoffing at,b37,deadbeat dad,i35,i,120,b,e
+e120bp,1475,unemployed_person_SCOFFING_AT_deadbeat_dad_IB2P,unemployed person,i12,scoffing at,b37,deadbeat dad,i35,i,120,b,p
+e120ba,1476,unemployed_person_SCOFFING_AT_deadbeat_dad_IB3A,unemployed person,i12,scoffing at,b37,deadbeat dad,i35,i,120,b,a
+e120oe,1696,unemployed_person_scoffing_at_DEADBEAT_DAD_IO1E,unemployed person,i12,scoffing at,b37,deadbeat dad,i35,i,120,o,e
+e120op,1697,unemployed_person_scoffing_at_DEADBEAT_DAD_IO2P,unemployed person,i12,scoffing at,b37,deadbeat dad,i35,i,120,o,p
+e120oa,1698,unemployed_person_scoffing_at_DEADBEAT_DAD_IO3A,unemployed person,i12,scoffing at,b37,deadbeat dad,i35,i,120,o,a
+e121ae,559,UNEMPLOYED_PERSON_soothing_outlaw_IA1E,unemployed person,i12,soothing,b34,outlaw,i4,i,121,a,e
+e121ap,560,UNEMPLOYED_PERSON_soothing_outlaw_IA2P,unemployed person,i12,soothing,b34,outlaw,i4,i,121,a,p
+e121aa,561,UNEMPLOYED_PERSON_soothing_outlaw_IA3A,unemployed person,i12,soothing,b34,outlaw,i4,i,121,a,a
+e121be,781,unemployed_person_SOOTHING_outlaw_IB1E,unemployed person,i12,soothing,b34,outlaw,i4,i,121,b,e
+e121bp,782,unemployed_person_SOOTHING_outlaw_IB2P,unemployed person,i12,soothing,b34,outlaw,i4,i,121,b,p
+e121ba,783,unemployed_person_SOOTHING_outlaw_IB3A,unemployed person,i12,soothing,b34,outlaw,i4,i,121,b,a
+e121oe,1003,unemployed_person_soothing_OUTLAW_IO1E,unemployed person,i12,soothing,b34,outlaw,i4,i,121,o,e
+e121op,1004,unemployed_person_soothing_OUTLAW_IO2P,unemployed person,i12,soothing,b34,outlaw,i4,i,121,o,p
+e121oa,1005,unemployed_person_soothing_OUTLAW_IO3A,unemployed person,i12,soothing,b34,outlaw,i4,i,121,o,a
+e122ae,577,VICTIM_submitting_to_outlaw_IA1E,victim,i30,submitting to,b5,outlaw,i4,i,122,a,e
+e122ap,578,VICTIM_submitting_to_outlaw_IA2P,victim,i30,submitting to,b5,outlaw,i4,i,122,a,p
+e122aa,579,VICTIM_submitting_to_outlaw_IA3A,victim,i30,submitting to,b5,outlaw,i4,i,122,a,a
+e122be,799,victim_SUBMITTING_TO_outlaw_IB1E,victim,i30,submitting to,b5,outlaw,i4,i,122,b,e
+e122bp,800,victim_SUBMITTING_TO_outlaw_IB2P,victim,i30,submitting to,b5,outlaw,i4,i,122,b,p
+e122ba,801,victim_SUBMITTING_TO_outlaw_IB3A,victim,i30,submitting to,b5,outlaw,i4,i,122,b,a
+e122oe,1021,victim_submitting_to_OUTLAW_IO1E,victim,i30,submitting to,b5,outlaw,i4,i,122,o,e
+e122op,1022,victim_submitting_to_OUTLAW_IO2P,victim,i30,submitting to,b5,outlaw,i4,i,122,o,p
+e122oa,1023,victim_submitting_to_OUTLAW_IO3A,victim,i30,submitting to,b5,outlaw,i4,i,122,o,a
+e123ae,766,VILLAIN_jesting_with_loafer_IA1E,villain,i10,jesting with,b11,loafer,i6,i,123,a,e
+e123ap,767,VILLAIN_jesting_with_loafer_IA2P,villain,i10,jesting with,b11,loafer,i6,i,123,a,p
+e123aa,768,VILLAIN_jesting_with_loafer_IA3A,villain,i10,jesting with,b11,loafer,i6,i,123,a,a
+e123be,988,villain_JESTING_WITH_loafer_IB1E,villain,i10,jesting with,b11,loafer,i6,i,123,b,e
+e123bp,989,villain_JESTING_WITH_loafer_IB2P,villain,i10,jesting with,b11,loafer,i6,i,123,b,p
+e123ba,990,villain_JESTING_WITH_loafer_IB3A,villain,i10,jesting with,b11,loafer,i6,i,123,b,a
+e123oe,1210,villain_jesting_with_LOAFER_IO1E,villain,i10,jesting with,b11,loafer,i6,i,123,o,e
+e123op,1211,villain_jesting_with_LOAFER_IO2P,villain,i10,jesting with,b11,loafer,i6,i,123,o,p
+e123oa,1212,villain_jesting_with_LOAFER_IO3A,villain,i10,jesting with,b11,loafer,i6,i,123,o,a
+e124ae,757,VILLAIN_querying_physician_IA1E,villain,i10,querying,b19,physician,i42,i,124,a,e
+e124ap,758,VILLAIN_querying_physician_IA2P,villain,i10,querying,b19,physician,i42,i,124,a,p
+e124aa,759,VILLAIN_querying_physician_IA3A,villain,i10,querying,b19,physician,i42,i,124,a,a
+e124be,979,villain_QUERYING_physician_IB1E,villain,i10,querying,b19,physician,i42,i,124,b,e
+e124bp,980,villain_QUERYING_physician_IB2P,villain,i10,querying,b19,physician,i42,i,124,b,p
+e124ba,981,villain_QUERYING_physician_IB3A,villain,i10,querying,b19,physician,i42,i,124,b,a
+e124oe,1201,villain_querying_PHYSICIAN_IO1E,villain,i10,querying,b19,physician,i42,i,124,o,e
+e124op,1202,villain_querying_PHYSICIAN_IO2P,villain,i10,querying,b19,physician,i42,i,124,o,p
+e124oa,1203,villain_querying_PHYSICIAN_IO3A,villain,i10,querying,b19,physician,i42,i,124,o,a
+e125ae,748,VILLAIN_slugging_victim_IA1E,villain,i10,slugging,b16,victim,i30,i,125,a,e
+e125ap,749,VILLAIN_slugging_victim_IA2P,villain,i10,slugging,b16,victim,i30,i,125,a,p
+e125aa,750,VILLAIN_slugging_victim_IA3A,villain,i10,slugging,b16,victim,i30,i,125,a,a
+e125be,970,villain_SLUGGING_victim_IB1E,villain,i10,slugging,b16,victim,i30,i,125,b,e
+e125bp,971,villain_SLUGGING_victim_IB2P,villain,i10,slugging,b16,victim,i30,i,125,b,p
+e125ba,972,villain_SLUGGING_victim_IB3A,villain,i10,slugging,b16,victim,i30,i,125,b,a
+e125oe,1192,villain_slugging_VICTIM_IO1E,villain,i10,slugging,b16,victim,i30,i,125,o,e
+e125op,1193,villain_slugging_VICTIM_IO2P,villain,i10,slugging,b16,victim,i30,i,125,o,p
+e125oa,1194,villain_slugging_VICTIM_IO3A,villain,i10,slugging,b16,victim,i30,i,125,o,a
+e126oe,130,youngster_ignoring_OUTLAW_IO1E,youngster,i32,ignoring,b32,outlaw,i4,i,126,o,e
+e126op,131,youngster_ignoring_OUTLAW_IO2P,youngster,i32,ignoring,b32,outlaw,i4,i,126,o,p
+e126oa,132,youngster_ignoring_OUTLAW_IO3A,youngster,i32,ignoring,b32,outlaw,i4,i,126,o,a
+e126ae,1459,YOUNGSTER_ignoring_outlaw_IA1E,youngster,i32,ignoring,b32,outlaw,i4,i,126,a,e
+e126ap,1460,YOUNGSTER_ignoring_outlaw_IA2P,youngster,i32,ignoring,b32,outlaw,i4,i,126,a,p
+e126aa,1461,YOUNGSTER_ignoring_outlaw_IA3A,youngster,i32,ignoring,b32,outlaw,i4,i,126,a,a
+e126be,1681,youngster_IGNORING_outlaw_IB1E,youngster,i32,ignoring,b32,outlaw,i4,i,126,b,e
+e126bp,1682,youngster_IGNORING_outlaw_IB2P,youngster,i32,ignoring,b32,outlaw,i4,i,126,b,p
+e126ba,1683,youngster_IGNORING_outlaw_IB3A,youngster,i32,ignoring,b32,outlaw,i4,i,126,b,a
+e127ae,784,YOUNGSTER_slugging_do_nothing_IA1E,youngster,i32,slugging,b16,do nothing,i40,i,127,a,e
+e127ap,785,YOUNGSTER_slugging_do_nothing_IA2P,youngster,i32,slugging,b16,do nothing,i40,i,127,a,p
+e127aa,786,YOUNGSTER_slugging_do_nothing_IA3A,youngster,i32,slugging,b16,do nothing,i40,i,127,a,a
+e127be,1006,youngster_SLUGGING_do_nothing_IB1E,youngster,i32,slugging,b16,do nothing,i40,i,127,b,e
+e127bp,1007,youngster_SLUGGING_do_nothing_IB2P,youngster,i32,slugging,b16,do nothing,i40,i,127,b,p
+e127ba,1008,youngster_SLUGGING_do_nothing_IB3A,youngster,i32,slugging,b16,do nothing,i40,i,127,b,a
+e127oe,1228,youngster_slugging_DO_NOTHING_IO1E,youngster,i32,slugging,b16,do nothing,i40,i,127,o,e
+e127op,1229,youngster_slugging_DO_NOTHING_IO2P,youngster,i32,slugging,b16,do nothing,i40,i,127,o,p
+e127oa,1230,youngster_slugging_DO_NOTHING_IO3A,youngster,i32,slugging,b16,do nothing,i40,i,127,o,a
+e128ae,775,YOUNGSTER_slugging_physician_IA1E,youngster,i32,slugging,b16,physician,i42,i,128,a,e
+e128ap,776,YOUNGSTER_slugging_physician_IA2P,youngster,i32,slugging,b16,physician,i42,i,128,a,p
+e128aa,777,YOUNGSTER_slugging_physician_IA3A,youngster,i32,slugging,b16,physician,i42,i,128,a,a
+e128be,997,youngster_SLUGGING_physician_IB1E,youngster,i32,slugging,b16,physician,i42,i,128,b,e
+e128bp,998,youngster_SLUGGING_physician_IB2P,youngster,i32,slugging,b16,physician,i42,i,128,b,p
+e128ba,999,youngster_SLUGGING_physician_IB3A,youngster,i32,slugging,b16,physician,i42,i,128,b,a
+e128oe,1219,youngster_slugging_PHYSICIAN_IO1E,youngster,i32,slugging,b16,physician,i42,i,128,o,e
+e128op,1220,youngster_slugging_PHYSICIAN_IO2P,youngster,i32,slugging,b16,physician,i42,i,128,o,p
+e128oa,1221,youngster_slugging_PHYSICIAN_IO3A,youngster,i32,slugging,b16,physician,i42,i,128,o,a

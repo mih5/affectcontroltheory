@@ -1,0 +1,17 @@
+{
+    "contents" : "set.seed(373875)\n\nx <- rnorm(100,0,1)\ny <- rbinom(100,1,pnorm(x))\n\nfit <- glm(y ~ 1, data = data.frame(cbind(x,y)), family = binomial())\n\nlogitLikelihood <- function(alpha, y){\n  value = 1\n  for(i in 1:length(y)){\n    value = value * exp(alpha*y[i])/(1+exp(alpha))\n  }\n  value\n}\n\nprobitLikelihood <- function(beta, y){\n  value = 1\n  for(i in 1:length(y)){\n    value = value * pnorm(beta)^(y[i]) * (1-pnorm(beta))^(1-y[i])\n  }\n  value\n}\n\n\nprobitLikelihoodTransform <- function(beta, y){\n  value = 1\n  beta <- 0.627*beta\n  for(i in 1:length(y)){\n    value = value * pnorm(beta)^(y[i]) * (1-pnorm(beta))^(1-y[i])\n  }\n  value\n}\n\n\nsupport<-seq(-3,3,.01)\n\nlogit <- logitLikelihood(support,y)\nprobit <- probitLikelihoodTransform(support,y)\n\n\nplot(support,probit-logit)\n\nplot(support,logit,col=2)\npoints(support,probit,col=3)\n\nrequire(LearnBayes)\nprobit.model <- bayes.probit(y, X = matrix(1,ncol=1,nrow=100), m=10000)\ncolMeans(probit.model$beta)\n\ncolMeans(probit.model$beta)*4/sqrt(2*pi)\n\ndim(probit.model$beta)\nhist(probit.model$beta[,1])\n\nsummary(fit)\n\n\n#SIMPLE IMPORTANCE SAMPLER\nweights <- logitLikelihood(probit.model$beta, y)/ probitLikelihood(probit.model$beta, y)\nmu_q_1 <- t(probit.model$beta)%*%weights/sum(weights)\nd <- density(weights)\nhist(weights)\nplot(d)\nprobit.model$beta[which(weights==max(weights))]\n\n\nvar_q_1<-t((weights/sum(weights))^2)%*%(probit.model$beta-mu_q_1[1,1])^2\nsqrt(var_q_1[1,1])\n\n#WITH TRANSFORMATION\nweights2 <- logitLikelihood(probit.model$beta*4/sqrt(2*pi), y)/ ( probitLikelihood(probit.model$beta, y)*sqrt(2*pi)/4 )\nhist(weights2)\nmu_q_2<-t(probit.model$beta)%*%weights2/sum(weights2)\nvar_q_2<-t((weights2/sum(weights2))^2)%*%(probit.model$beta-mu_q_2[1,1])^2",
+    "created" : 1409627604736.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2366165444",
+    "id" : "E26FB78C",
+    "lastKnownWriteTime" : 1409715171,
+    "path" : "C:/Users/Mao/Dropbox/Senior Year/Research/scripts/importance.R",
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

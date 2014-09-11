@@ -152,15 +152,16 @@ sd(duke10$eae)
 
 #minus the intercept
 sim.X1.design.dataframe <- data.frame(sim.X1.design.matrix)
-corrplot(cor(sim.X1.design.dataframe[,c("ae","ap","aa","be","bp","ba","oe","op","oa")]))
-corrplot(cor(duke10[,c("ae","ap","aa","be","bp","ba","oe","op","oa")]))
+
+sim.data <- data.frame(cbind(eae=sim.Y,sim.X1.design.matrix))
+names(sim.data) <- c("response","intercept",names(sim.data)[c(-1,-2)])
+
+corrplot(cor(sim.data[,c("response","ae","ap","aa","be","bp","ba","oe","op","oa")]))
+corrplot(cor(duke10[,c("eae","ae","ap","aa","be","bp","ba","oe","op","oa")]))
 
 ####################
 # CONDUCT ANALYSIS #
 ####################
-
-sim.data <- data.frame(cbind(eae=sim.Y,sim.X1.design.matrix))
-names(sim.data) <- c("response","intercept",names(sim.data)[c(-1,-2)])
 
 #sample observations for training set
 training.size <- 500
@@ -224,6 +225,7 @@ summary(anova.model)
 #get p-values from anova
 #ignore the "residual" output
 var.iden.anova <- (rownames(anova(anova.model))[-64])[ anova(anova.model)$'Pr(>F)'[-64] < 0.01 ]
+var.iden.anova <- gsub(":",".",var.iden.anova)
 
 #COMPARE VARIABLES IDENTIFIED WITH ORIGINAL MODEL
 var.iden.stepwise
@@ -250,7 +252,38 @@ checker(var.iden.stepwise,var.model)
 checker(var.iden.BMA,var.model)
 checker(var.iden.anova,var.model)
 
+#EXAMINE PREDICTION ERROR
 
+head(test.data)
+names(test.data)
+
+#stepwise
+dev.off()
+residuals.stepwise <- test.data[,1]-predict(sim.model.stepwise, newdata=test.data[,-1])
+hist(residuals.stepwise)
+mean(residuals.stepwise^2)
+
+#BMA
+#obtain median model 
+paste(var.iden.BMA, collapse="+")
+median.bma.model <- lm(response ~ ae+be+ba+ae.be+ap.be+be.op+bp.oe+ap.be.op, data = train.data)
+residuals.bma.median <- test.data[,1] - predict(median.bma.model, newdata = test.data)
+hist(residuals.bma.median)
+mean(residuals.bma.median^2)
+
+#ANOVA model
+paste(var.iden.anova, collapse="+")
+anova.model <- lm(response ~ ae+aa+be+ba+be.op, data=train.data)
+residuals.anova <- test.data[,1] - predict(anova.model, newdata = test.data)
+hist(residuals.anova)
+mean(residuals.anova^2)
+
+#test predict fucntion
+#note: maxCol must be larger than dimension of original dataset
+# 
+# test.bma <- bicreg(x=train.data[,3:11],y=train.data[,1], maxCol = 9)
+# summary(test.bma)
+# predict(test.bma, newdata=test.data)
 
 
 

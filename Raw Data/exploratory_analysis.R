@@ -16,3 +16,7 @@ head(duke10)
 p <- ggplot(duke10, aes(x = ia42))
 p + geom_density(aes(stroke = factor(sex), color = factor(sex)))
 
+
+p <- ggplot(duke10, aes(x = ia42))
+p + geom_histogram(color = "steelblue", fill = "white") + facet_grid(sex ~ ., labeller = label_both ) + theme(text = element_text(size=14))
+
