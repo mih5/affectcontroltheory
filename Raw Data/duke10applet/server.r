@@ -42,7 +42,7 @@ shinyServer(function(input, output) {
       geom_histogram(color = "steelblue", fill = "white", binwidth = binselect) + 
       aes(y = ..density..) + ylab("density") + xlab(selectedIdentityBehavior) +
       facet_grid(group ~ ., labeller = label_both ) + 
-      theme(text = element_text(size=14))
+      theme(text = element_text(size=14)) + xlim(c(-4.3,4.3))
     p
   }, height = 600, width = 600)
   

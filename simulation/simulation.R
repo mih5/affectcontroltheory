@@ -5,6 +5,7 @@
 require(mvtnorm) #for sampling from multivariate normal
 require(ggplot2) #for plotting
 require(BMA) #Adrian Raftery's Bayesian Model Averaging Package
+require(BMS)
 require(dplyr) #for transforming data
 require(magrittr) #for coding semantics
 require(corrplot)
@@ -69,7 +70,7 @@ sim.B = c("intercept" = -0.098,
           "ap.be.oe" = 0, 
           "ap.be.op" = 0, 
           "ap.be.oa" = 0, 
-          "ap.bp.oe" = 0, 
+          "ap.bp.oe" = -0.05, 
           "ap.bp.op" = 0, 
           "ap.bp.oa" = 0, 
           "ap.ba.oe" = 0, 
@@ -80,7 +81,7 @@ sim.B = c("intercept" = -0.098,
           "aa.be.oa" = 0, 
           "aa.bp.oe" = 0, 
           "aa.bp.op" = 0, 
-          "aa.bp.oa" = 0, 
+          "aa.bp.oa" = 0.05, 
           "aa.ba.oe" = 0, 
           "aa.ba.op" = 0, 
           "aa.ba.oa" = 0)
@@ -190,6 +191,13 @@ summary(sim.model.BMA)
 #store identified variables
 var.iden.BMA <- sim.model.BMA$namesx[sim.model.BMA$probne0>50]
 
+#BAYESIAN MODEL AVERAGING
+sim.model.BMS <- bms(train.data[,-2], iter=10000)
+summary(sim.model.BMS)
+image(sim.model.BMS)
+
+var.iden.BMS <- rownames(coef(sim.model.BMS))[which(coef(sim.model.BMS)[,1]>0.5)]
+
 #HEISE ANOVA ANALYSIS
 head(train.data)
 
@@ -228,9 +236,11 @@ var.iden.anova <- (rownames(anova(anova.model))[-64])[ anova(anova.model)$'Pr(>F
 var.iden.anova <- gsub(":",".",var.iden.anova)
 
 #COMPARE VARIABLES IDENTIFIED WITH ORIGINAL MODEL
+rownames(coefficients)[coefficients$sim.B != 0]
 var.iden.stepwise
 var.iden.BMA
 var.iden.anova
+var.iden.BMS
 
 #minus the intercept
 var.model <- names(sim.B)[sim.B!=0][-1]
@@ -251,6 +261,7 @@ checker <- function(identified.variables, true.variables){
 checker(var.iden.stepwise,var.model)
 checker(var.iden.BMA,var.model)
 checker(var.iden.anova,var.model)
+checker(var.iden.BMS,var.model)
 
 #EXAMINE PREDICTION ERROR
 
@@ -264,6 +275,8 @@ hist(residuals.stepwise)
 mean(residuals.stepwise^2)
 
 #BMA
+#predict(sim.model.BMA, newdata = test.data)
+
 #obtain median model 
 paste(var.iden.BMA, collapse="+")
 median.bma.model <- lm(response ~ ae+be+ba+ae.be+ap.be+be.op+bp.oe+ap.be.op, data = train.data)
@@ -278,12 +291,23 @@ residuals.anova <- test.data[,1] - predict(anova.model, newdata = test.data)
 hist(residuals.anova)
 mean(residuals.anova^2)
 
-#test predict fucntion
+#BMA -BMS
+residuals.bms <- test.data[,1] - predict(sim.model.BMS, newdata = test.data[-2])
+hist(residuals.bms)
+mean(residuals.bms^2)
+
+
+#test predict function
 #note: maxCol must be larger than dimension of original dataset
 # 
-# test.bma <- bicreg(x=train.data[,3:11],y=train.data[,1], maxCol = 9)
-# summary(test.bma)
-# predict(test.bma, newdata=test.data)
+#test.bma <- bicreg(x=train.data[,3:11],y=train.data[,1], maxCol = 10)
+
+
+#summary(test.bma)
+#predict(test.bma, newdata=test.data)
+
+
+
 
 
 
