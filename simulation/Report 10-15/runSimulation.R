@@ -42,7 +42,6 @@ runSimulation <- function(sim.B, trainSize, testSize){
     words = c(substr(interaction,1,1),substr(interaction,4,4),substr(interaction,7,7))
     if(!is.na(sum(pmatch(c("a","b","o"),words)))){
       sim.X1.3.names[i,] <- c(interaction,TRUE)
-      print(interaction)
     }
     else{
       sim.X1.3.names[i,] <- c("",FALSE)
@@ -112,7 +111,7 @@ runSimulation <- function(sim.B, trainSize, testSize){
   train.data.main.factors <- select(train.data,response,ae,ap,aa,be,bp,ba,oe,op,oa)
   mainFactorMedians <- select(train.data.main.factors,ae,ap,aa,be,bp,ba,oe,op,oa)%>%apply(MARGIN=2, FUN=median)
   
-  #then, dichotomize these main facctors
+  #then, dichotomize these main factors
   #note, mutation written out manually for clarity
   train.data.dichotomized <-
     mutate(train.data.main.factors, 
@@ -139,11 +138,32 @@ runSimulation <- function(sim.B, trainSize, testSize){
   var.iden.anova <- (rownames(anova(anova.model))[-64])[ anova(anova.model)$'Pr(>F)'[-64] < 0.01 ]
   var.iden.anova <- gsub(":",".",var.iden.anova)
   
+  #run anova model
+  
+  sim.model.anova <- lm(response~.,data=train.data[,c("response",var.iden.anova)])
+  
   
   #TRUE MODEL
   
   #minus the intercept
   var.model <- names(sim.B)[sim.B!=0][-1]
+  
+  #########################
+  # COEFFICIENT ESTIMATES #
+  #########################
+  
+  #stepwise
+  coef.stepwise <- coef(summary(sim.model.stepwise))[, "Estimate"]
+  
+  #BMA
+  coef.BMA <- sim.model.BMA$postmean
+  
+  #BMS
+  coef.BMS <- coef(sim.model.BMS)[,"Post Mean"]
+  
+  #ANOVA
+  coef.anova <- coef(summary(sim.model.anova))[, "Estimate"]
+  
   
   
   ##############
@@ -166,8 +186,10 @@ runSimulation <- function(sim.B, trainSize, testSize){
   anova.model <- lm(response ~ ae+aa+be+ba+be.op, data=train.data)
   residuals.anova <- test.data[,1] - predict(anova.model, newdata = test.data)
   
-  #BMA -BMS
+  #BMA-BMS
   residuals.bms <- test.data[,1] - predict(sim.model.BMS, newdata = test.data[-2])
+  
+  #
   
   
   return(list("var.iden" = list("truth" = var.model,
@@ -178,7 +200,11 @@ runSimulation <- function(sim.B, trainSize, testSize){
          "pred.error" = list("stepwise" = residuals.stepwise,
                              "anova" = residuals.anova,
                              "bma" = residuals.bma.median,
-                             "bms" = residuals.bms) )
+                             "bms" = residuals.bms),
+         "coef.est" = list("stepwise" = coef.stepwise,
+                           "anova" = coef.anova,
+                           "bma" = coef.BMA,
+                           "bms" = coef.BMS))
   )
   
 }

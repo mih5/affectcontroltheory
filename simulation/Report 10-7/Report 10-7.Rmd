@@ -2,7 +2,7 @@
 title: "Report 10-7"
 author: "Mao Hu"
 date: "Monday, October 06, 2014"
-output: html_document
+output: pdf_document
 ---
 
 Load scripts:
@@ -10,6 +10,7 @@ Load scripts:
 ```{r}
 setwd("~/GitHub/affectControlTheory/simulation/Report 10-7")
 source("runSimulation.R")
+source("generatePlot.R")
 ```
 
 
@@ -626,7 +627,7 @@ simulation.model.eoe.3way = c("intercept" = 0.73,
 
 Run simulation:
 ```{r, echo=FALSE}
-SIMULATIONS = 100;
+SIMULATIONS = 50;
 
 resultsMatrix = as.data.frame(matrix(NA, SIMULATIONS, 16))
 names(resultsMatrix) = c("stepwiseTruePositive", "stepwiseFalsePositive", "stepwiseFalseNegative", "stepwiseTrueNegative",
@@ -637,7 +638,7 @@ for (i in 1:SIMULATIONS){
   
   print(i);
   
-  simulation <- runSimulation(simulation.model.eae.main, trainSize=200, testSize=200)
+  simulation <- runSimulation(simulation.model.eae.3way, trainSize=200, testSize=200)
   simulationIdentified <- simulation$var.iden
   
   
@@ -658,47 +659,10 @@ colMeans(resultsMatrix)[13:16]
 
 
 ```{r, echo=FALSE}
-require(ggplot2)
-require(reshape2)
-require(dplyr)
 
-truePositive <- as.data.frame(cbind("stepwise" = resultsMatrix$stepwiseTruePositive, 
-                                    "anova" = resultsMatrix$anovaTruePositive,
-                                    "bma" = resultsMatrix$bmaTruePositive,
-                                    "bms" = resultsMatrix$bmsTruePositive))
-truePositive <- melt(truePositive)
+generatePlot(resultsMatrix)
 
-plotData <- melt(resultsMatrix)
-
-getMethod <- function(variableName){
-  index = grep(substr(variableName,1,3),c("stepwise","anova","bma","bms"))
-  return(c("stepwise","anova","bma","bms")[index])
-}
-
-getStat <- function(variableName){
-  name = substr(variableName,3,nchar(as.character(variableName)))
-  select = c(grepl("TruePositive", name), grepl("FalsePositive", name), grepl("FalseNegative", name), grepl("TrueNegative", name))
-  return(c("TruePositive","FalsePositive","FalseNegative","TrueNegative")[select])
-}
-
-plotData <- plotData %>% mutate(method = sapply(plotData$variable, FUN = getMethod)) %>% mutate(statType = factor(sapply(plotData$variable, FUN = getStat)))
-
-p <- ggplot(plotData, aes(x = value, color = factor(method))) + geom_histogram(aes(y=..density..),fill="white", binwidth=1) 
-p + facet_grid(. ~ statType, scales = "free")
-
-p <- ggplot(plotData, aes(x = value)) + geom_histogram(aes(y=..density..), color = "steelblue", fill="white", binwidth=1) 
-p + facet_grid(method ~ statType, scales = "free")
-
-
-
-summary(plotData$statType)
-
-
-
-
-
-
-
+generateSensPlot(resultsMatrix)
 ```
 
 

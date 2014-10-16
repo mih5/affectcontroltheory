@@ -1,0 +1,60 @@
+---
+title: "Report 10-15"
+author: "Mao Hu"
+date: "Monday, October 13, 2014"
+output: pdf_document
+---
+
+Load scripts:
+
+```{r, include=FALSE}
+setwd("~/GitHub/affectControlTheory/simulation/Report 10-15")
+source("runSimulation.R")
+source("generatePlot.R")
+source("modelCoefs.R")
+```
+
+
+
+Run simulation:
+```{r, echo=FALSE, include=FALSE}
+SIMULATIONS = 5;
+
+resultsMatrix = as.data.frame(matrix(NA, SIMULATIONS, 16))
+names(resultsMatrix) = c("stepwiseTruePositive", "stepwiseFalsePositive", "stepwiseFalseNegative", "stepwiseTrueNegative",
+                         "anovaTruePositive", "anovaFalsePositive", "anovaFalseNegative", "anovaTrueNegative",
+                         "bmaTruePositive", "bmaFalsePositive", "bmaFalseNegative", "bmaTrueNegative",
+                         "bmsTruePositive", "bmsFalsePositive", "bmsFalseNegative", "bmsTrueNegative")
+
+coefStorage = list();
+
+for (i in 1:SIMULATIONS){
+#   
+  print(i);
+  
+  simulation <- runSimulation(simulation.model.eae.3way, trainSize=200, testSize=200)
+  simulationIdentified <- simulation$var.iden
+  
+  
+  storeResults <- c(checker(simulationIdentified$stepwise, simulationIdentified$truth),checker(simulationIdentified$anova, simulationIdentified$truth),checker(simulationIdentified$bma, simulationIdentified$truth),checker(simulationIdentified$bms, simulationIdentified$truth))
+  
+  resultsMatrix[i,] <- storeResults
+
+  coefStorage[[length(coefStorage)+1]] <- simulation$coef.est
+  
+}
+
+
+```
+
+
+```{r, echo=FALSE}
+
+generatePlot(resultsMatrix)
+
+generateSensPlot(resultsMatrix)
+```
+
+
+
+
