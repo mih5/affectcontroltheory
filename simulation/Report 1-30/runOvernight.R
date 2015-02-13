@@ -4,7 +4,7 @@ source("runSimulation.R")
 source("modelCoefs.R")
 source("lynnPriors.R")
 
-SIMULATIONS = 45;
+SIMULATIONS = 100;
 
 models <- c("eae","ebe","eoe", "eap", "ebp", "eop", "eaa", "eba", "eoa")
 
@@ -23,3 +23,4 @@ proc.time()-ptm
 
 # 1 simulation, 9 models takes about 10 minutes
 # 45 simulation, 9 models takes about 4.7 hours
+# 100 simulations, 9 models about 10 hours
